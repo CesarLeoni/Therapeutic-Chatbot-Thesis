@@ -12,19 +12,20 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # Handler for the /start command
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await update.message.reply_text("Hello! I'm your chatbot. Ask me anything!")
+    await update.message.reply_text("Salutare! Eu sunt PsychoBot! Terapeutul si sfătuitorul "
+                                    "tău! Cu ce te pot ajuta azi?")
 
 # Handler for user messages
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     try:
         user_message = update.message.text
-        await update.message.reply_text("Thinking...")
+        #await update.message.reply_text("Mă gândesc...")
 
         # Fetch the response from the LLM
         response = await fetch_response(user_message)
         await update.message.reply_text(response)
     except Exception as e:
-        await update.message.reply_text(f"An error occured: {e}")
+        await update.message.reply_text(f"Întâmpin eroarea : {e}")
 
 # Main function to initialize the bot
 def main():

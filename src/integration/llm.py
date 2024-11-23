@@ -22,14 +22,15 @@ async def fetch_response(prompt: str) -> str:
             messages=[
                 {
                     "role": "system",
-                    "content": "You are acting like a good therapist. Your name is PsychoBot and you listen carefully."
+                    "content": "Ești un bun psiholog multilingv. Numele tău e PsychoBot și"
+                               "asculți cu atenție."
                 },
                 {
                     "role": "user",
                     "content": prompt
                 },
             ],
-            model="gpt-4o-mini-2024-07-18"
+            model="gpt-4o-mini-2024-07-18",
             #temperature=0.7,  # Adjust for creativity
         )
         # Access the response content properly
