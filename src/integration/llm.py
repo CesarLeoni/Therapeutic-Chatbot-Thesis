@@ -22,7 +22,7 @@ async def fetch_response(prompt: str) -> str:
             messages=[
                 {
                     "role": "system",
-                    "content": "You are a helpful assistant. Acting like a therapist. Your name is PsychoBot."
+                    "content": "You are acting like a good therapist. Your name is PsychoBot and you listen carefully."
                 },
                 {
                     "role": "user",
