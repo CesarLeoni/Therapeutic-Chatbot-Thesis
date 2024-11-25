@@ -5,8 +5,10 @@ from dotenv import load_dotenv
 import os
 import requests
 import whisper #speech to text
-import ffmpeg
-#.ogg to .wav
+import ffmpeg #.ogg to .wav
+
+#from transformers import pipeline
+#pipe = pipeline("automatic-speech-recognition", model="gigant/whisper-medium-romanian")
 
 
 
@@ -44,8 +46,12 @@ async def handle_voice(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await file.download_to_drive(audio_file)
     print(f"Downloaded audio file to {audio_file}")
 
+    # Convert .ogg to .wav using ffmpeg (since whisper and the pipeline prefer .wav or .mp3)
+    # wav_file = "voice.wav"
+    # ffmpeg.input(audio_file).output(wav_file).run()
+
     # Transcribe the audio
-    transcription = await process_audio(audio_file)
+    transcription = await process_audio(audio_file)#change here between _ro and basic for romanian
     if transcription:
         response = await fetch_response(transcription)
     else:
@@ -62,6 +68,16 @@ async def process_audio(audio_file):
     except Exception as e:
         print(f"Error transcribing audio: {e}")
         return None
+
+# # Function to process audio using the transformers pipeline
+# async def process_audio_ro(audio_file):
+#     try:
+#         # Use the pipeline to transcribe the audio
+#         transcription = pipe(audio_file)
+#         return transcription["text"]
+#     except Exception as e:
+#         print(f"Error transcribing audio: {e}")
+#         return None
 
 # Main function to initialize the bot
 def main():

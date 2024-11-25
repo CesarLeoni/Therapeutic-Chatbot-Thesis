@@ -2,11 +2,11 @@ from dotenv import load_dotenv
 import os
 import integration.telegram
 
-# import warnings
+import warnings
 #
-# # Suppress specific warnings
-# warnings.filterwarnings("ignore", category=UserWarning, module="whisper")
-# warnings.filterwarnings("ignore", category=FutureWarning, module="torch")
+# Suppress specific warnings
+warnings.filterwarnings("ignore", category=UserWarning, module="whisper")
+warnings.filterwarnings("ignore", category=FutureWarning, module="torch")
 
 
 # Load environment variables from the .env file
