@@ -3,6 +3,12 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, Con
 from .llm import fetch_response
 from dotenv import load_dotenv
 import os
+import requests
+import whisper #speech to text
+import ffmpeg
+#.ogg to .wav
+
+
 
 # Load your Telegram bot token from the environment variable
 dotenv_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), '.env')
@@ -27,6 +33,36 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
     except Exception as e:
         await update.message.reply_text(f"Întâmpin eroarea : {e}")
 
+
+# Function to handle voice messages
+async def handle_voice(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    voice = update.message.voice
+    file = await context.bot.get_file(voice.file_id)
+    audio_file = "voice.ogg"
+
+    # Download the audio file
+    await file.download_to_drive(audio_file)
+    print(f"Downloaded audio file to {audio_file}")
+
+    # Transcribe the audio
+    transcription = await process_audio(audio_file)
+    if transcription:
+        response = await fetch_response(transcription)
+    else:
+        response = "Sorry, I couldn't understand the voice message."
+
+    # Reply with the transcription
+    await update.message.reply_text(f"You said: {str(transcription)}\n{str(response)}")
+
+async def process_audio(audio_file):
+    try:
+        model = whisper.load_model("base")
+        result = model.transcribe(audio_file)
+        return result["text"]
+    except Exception as e:
+        print(f"Error transcribing audio: {e}")
+        return None
+
 # Main function to initialize the bot
 def main():
     app = ApplicationBuilder().token(BOT_TOKEN).build()
@@ -34,6 +70,7 @@ def main():
     # Add handlers
     app.add_handler(CommandHandler("start", start))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
+    app.add_handler(MessageHandler(filters.VOICE, handle_voice))  # Add voice handler
 
     # Start the bot
     print("Bot is running...")
