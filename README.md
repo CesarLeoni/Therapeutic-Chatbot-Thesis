@@ -6,3 +6,5 @@ Conversational Inteligent agent for psychological support based on emotion recog
 ## 23.11.2024 04:10 - Chatbot working on Telegram
 
 ## 25.11.2024 05:17 - Chatbot able to transcript voice messages from Telegram
+
+## 29.11.2024 10:43 - Chatbot able to have multiple conversations at once

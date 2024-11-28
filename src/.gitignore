@@ -1,1 +1,5 @@
+#Ignore Telegram bot and openAI keys
 .env
+
+#ignore voice files
+voice.ogg
