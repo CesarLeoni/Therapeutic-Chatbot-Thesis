@@ -8,3 +8,5 @@ Conversational Inteligent agent for psychological support based on emotion recog
 ## 25.11.2024 05:17 - Chatbot able to transcript voice messages from Telegram
 
 ## 29.11.2024 10:43 - Chatbot able to have multiple conversations at once
+
+## 06.12.2024 01:49 - turbo model for whisper best suited for multilingual processing!
