@@ -2,16 +2,14 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 from .llm import fetch_response
 from dotenv import load_dotenv
+from .speech_to_text import fetch_transcription
+from telegram.error import Conflict
 import os
 import requests
 import whisper #speech to text
 import ffmpeg #.ogg to .wav
 import asyncio
 import concurrent.futures
-
-#from transformers import pipeline
-#pipe = pipeline("automatic-speech-recognition", model="gigant/whisper-medium-romanian")
-
 
 
 # Load your Telegram bot token from the environment variable
@@ -30,7 +28,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     try:
         user_message = update.message.text
-        #await update.message.reply_text("Mă gândesc...")
+        await update.message.reply_text("Mă gândesc...")
 
         # Fetch the response from the LLM
         response = await fetch_response(user_message)
@@ -53,57 +51,20 @@ async def handle_voice(update: Update, context: ContextTypes.DEFAULT_TYPE):
         print(f"Downloaded audio file to {audio_file}")
 
         await update.message.reply_text("Mă gândesc...")
-
-        # Convert .ogg to .wav using ffmpeg (since whisper and the pipeline prefer .wav or .mp3)
-        # wav_file = "voice.wav"
-        # ffmpeg.input(audio_file).output(wav_file).run()
-
-        # Run transcription asynchronously
-        #transcription_task = asyncio.create_task(process_audio("voice.ogg"))
-        #transcription = await transcription_task
-
-        with concurrent.futures.ThreadPoolExecutor() as pool:
-            transcription = await asyncio.get_event_loop().run_in_executor(pool, process_audio, audio_file)
-
-        # Transcribe the audio
-        # transcription = await process_audio(audio_file)
-        # change here between _ro and basic for romanian
+        transcription = await fetch_transcription(audio_file)
         response = await fetch_response(transcription or "Voice not understood.")
-
-        # Reply with the transcription
+        print(f"user: {transcription}\nresponse: {response}")
         await update.message.reply_text(f"You said: {str(transcription)}\n{str(response)}")
+
     except Exception as e:
         print(f"Error handling voice message: {e}")
         await update.message.reply_text("An error occurred while processing your voice message.")
-
-
-def process_audio(audio_file):
-    try:
-        model = whisper.load_model("base")
-        result = model.transcribe(audio_file)
-        return result["text"]
-    except Exception as e:
-        print(f"Error transcribing audio: {e}")
-        return None
-
-# # Function to process audio using the transformers pipeline
-# async def process_audio_ro(audio_file):
-#     try:
-#         # Use the pipeline to transcribe the audio
-#         transcription = pipe(audio_file)
-#         return transcription["text"]
-#     except Exception as e:
-#         print(f"Error transcribing audio: {e}")
-#         return None
-
-from telegram.error import Conflict
 
 async def error_handler(update, context):
     if isinstance(context.error, Conflict):
         print("Conflict error: Ensure only one bot instance is running.")
     else:
         print(f"An error occurred: {context.error}")
-
 
 # Main function to initialize the bot
 def main():
