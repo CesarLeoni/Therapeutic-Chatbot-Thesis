@@ -24,6 +24,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text("Salutare! Eu sunt PsychoBot! Terapeutul si sfătuitorul "
                                     "tău! Cu ce te pot ajuta azi?")
+    print(update.message)
 
 # Handler for user messages
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -34,6 +35,8 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
         # Fetch the response from the LLM
         response = await fetch_response(user_message)
         await update.message.reply_text(response)
+        print(f"user: {user_message}\nresponse: {response}")
+        print(update.message)
     except Exception as e:
         await update.message.reply_text(f"Întâmpin eroarea : {e}")
 
@@ -69,7 +72,6 @@ async def handle_voice(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
         # Reply with the transcription
         await update.message.reply_text(f"You said: {str(transcription)}\n{str(response)}")
-
     except Exception as e:
         print(f"Error handling voice message: {e}")
         await update.message.reply_text("An error occurred while processing your voice message.")

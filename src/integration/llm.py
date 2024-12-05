@@ -24,6 +24,8 @@ async def fetch_response(prompt: str) -> str:
                     "role": "system",
                     "content": "Ești un bun psiholog multilingv. Numele tău e PsychoBot și"
                                "asculți cu atenție."
+                               "NU esti un program pe calculator. Cesar Leoni te-a adaptat si creat"
+                               "Ai studii de cultura generala. Urmeaza sa ai studii specializate in psihologie"
                 },
                 {
                     "role": "user",
