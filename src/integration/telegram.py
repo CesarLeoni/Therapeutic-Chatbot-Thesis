@@ -1,82 +1,72 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
-from .llm import fetch_response
+from src.integration.llm import fetch_response
 from dotenv import load_dotenv
-from .speech_to_text import fetch_transcription
+from src.integration.speech_to_text import fetch_transcription
 from telegram.error import Conflict
+from src.conf.logger import get_logger
 import os
-import requests
-import whisper #speech to text
-import ffmpeg #.ogg to .wav
 import asyncio
-import concurrent.futures
 
+logger = get_logger(__name__)  # Set up the logger
 
 # Load your Telegram bot token from the environment variable
 dotenv_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), '.env')
 load_dotenv(dotenv_path)
-
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
-# Handler for the /start command
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await update.message.reply_text("Salutare! Eu sunt PsychoBot! Terapeutul si sfătuitorul "
-                                    "tău! Cu ce te pot ajuta azi?")
-    print(update.message)
+    logger.info("Bot received a /start command")
+    await update.message.reply_text("Salutare! Eu sunt PsychoBot! Terapeutul și sfătuitorul tău! Cu ce te pot ajuta azi?")
 
-# Handler for user messages
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     try:
         user_message = update.message.text
+        logger.info(f"Received message: {user_message}")
         await update.message.reply_text("Mă gândesc...")
 
-        # Fetch the response from the LLM
         response = await fetch_response(user_message)
+        logger.debug(f"Generated response: {response}")
         await update.message.reply_text(response)
-        print(f"user: {user_message}\nresponse: {response}")
-        print(update.message)
     except Exception as e:
+        logger.error(f"Error handling message: {e}", exc_info=True)
         await update.message.reply_text(f"Întâmpin eroarea : {e}")
 
-
-# Function to handle voice messages
 async def handle_voice(update: Update, context: ContextTypes.DEFAULT_TYPE):
     try:
         voice = update.message.voice
         file = await context.bot.get_file(voice.file_id)
         audio_file = "voice.ogg"
 
-        # Download the audio file
         await file.download_to_drive(audio_file)
-        print(f"Downloaded audio file to {audio_file}")
+        logger.info(f"Downloaded audio file to {audio_file}")
 
         await update.message.reply_text("Mă gândesc...")
         transcription = await fetch_transcription(audio_file)
         response = await fetch_response(transcription or "Voice not understood.")
-        print(f"user: {transcription}\nresponse: {response}")
-        await update.message.reply_text(f"You said: {str(transcription)}\n{str(response)}")
+        logger.debug(f"Transcription: {transcription}, Response: {response}")
 
+        await update.message.reply_text(f"You said: {str(transcription)}\n{str(response)}")
     except Exception as e:
-        print(f"Error handling voice message: {e}")
+        logger.error(f"Error handling voice message: {e}", exc_info=True)
         await update.message.reply_text("An error occurred while processing your voice message.")
 
 async def error_handler(update, context):
     if isinstance(context.error, Conflict):
-        print("Conflict error: Ensure only one bot instance is running.")
+        logger.warning("Conflict error: Ensure only one bot instance is running.")
     else:
-        print(f"An error occurred: {context.error}")
+        logger.error(f"An error occurred: {context.error}", exc_info=True)
 
-# Main function to initialize the bot
 def main():
+    logger.info("Initializing the bot")
     app = ApplicationBuilder().token(BOT_TOKEN).concurrent_updates(True).build()
 
-    # Add handlers
     app.add_handler(CommandHandler("start", start))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
-    app.add_handler(MessageHandler(filters.VOICE, handle_voice))  # Add voice handler
+    app.add_handler(MessageHandler(filters.VOICE, handle_voice))
     app.add_error_handler(error_handler)
 
-    # Start polling with increased worker pool and larger timeout
+    logger.info("Bot is running...")
     print("Bot is running...")
     app.run_polling(poll_interval=1.0, timeout=30, read_timeout=30)
 

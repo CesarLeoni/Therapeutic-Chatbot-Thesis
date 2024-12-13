@@ -1,0 +1,11 @@
+2024-12-13 15:54:39,924 - __main__ - INFO - Starting main application
+2024-12-13 15:54:39,925 - integration.telegram - INFO - Initializing the bot
+2024-12-13 15:54:40,954 - integration.telegram - INFO - Bot is running...
+2024-12-13 15:55:43,418 - integration.telegram - INFO - Received message: imi e sete
+2024-12-13 15:55:43,650 - src.integration.llm - INFO - Fetching response for prompt: imi e sete
+2024-12-13 15:55:44,720 - src.integration.llm - DEBUG - Received response: Dacă îți este sete, este important să te hidratezi! Poți bea apă, suc natural sau ceai. Ce preferi să bei?
+2024-12-13 15:55:44,720 - integration.telegram - DEBUG - Generated response: Dacă îți este sete, este important să te hidratezi! Poți bea apă, suc natural sau ceai. Ce preferi să bei?
+2024-12-13 15:56:50,363 - integration.telegram - INFO - Received message: tu ce zici sa beau?
+2024-12-13 15:56:50,563 - src.integration.llm - INFO - Fetching response for prompt: tu ce zici sa beau?
+2024-12-13 15:56:52,522 - src.integration.llm - DEBUG - Received response: Depinde de context și de preferințele tale. Dacă vrei o băutură răcoritoare, poate un suc natural sau un smoothie ar fi o alegere bună. Dacă preferi ceva cald, o cană de ceai sau cafea ar putea fi potrivită. Dacă dorești să te relaxezi, un pahar de vin ar putea fi o opțiune. Ce îți face plăcere să bei?
+2024-12-13 15:56:52,522 - integration.telegram - DEBUG - Generated response: Depinde de context și de preferințele tale. Dacă vrei o băutură răcoritoare, poate un suc natural sau un smoothie ar fi o alegere bună. Dacă preferi ceva cald, o cană de ceai sau cafea ar putea fi potrivită. Dacă dorești să te relaxezi, un pahar de vin ar putea fi o opțiune. Ce îți face plăcere să bei?

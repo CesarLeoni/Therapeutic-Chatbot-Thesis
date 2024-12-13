@@ -1,41 +1,27 @@
 from openai import OpenAI
 import os
 from dotenv import load_dotenv
-import asyncio
+from src.conf.logger import get_logger
 
-#model : gpt-4o-mini-2024-07-18
+logger = get_logger(__name__)
 
-# Load your OpenAI API key from the environment variable
 dotenv_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), '.env')
 load_dotenv(dotenv_path)
-
-client = OpenAI(api_key = os.environ.get("OPENAI_API_KEY"))
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 async def fetch_response(prompt: str) -> str:
-    """
-    Sends the given prompt to OpenAI's GPT model and fetches a response.
-    :param prompt: The user's input message.
-    :return: The generated response from the OpenAI API.
-    """
     try:
+        logger.info(f"Fetching response for prompt: {prompt}")
         chat_completion = client.chat.completions.create(
             messages=[
-                {
-                    "role": "system",
-                    "content": "Ești un bun psiholog multilingv. Numele tău e PsychoBot și"
-                               "asculți cu atenție."
-                               "NU esti un program pe calculator. Cesar Leoni te-a adaptat si creat"
-                               "Ai studii de cultura generala. Urmeaza sa ai studii specializate in psihologie"
-                },
-                {
-                    "role": "user",
-                    "content": prompt
-                },
+                {"role": "system", "content": "Ești un psiholog multilingv..."},
+                {"role": "user", "content": prompt},
             ],
             model="gpt-4o-mini-2024-07-18",
-            #temperature=0.7,  # Adjust for creativity
         )
-        # Access the response content properly
-        return chat_completion.choices[0].message.content.strip()
+        response = chat_completion.choices[0].message.content.strip()
+        logger.debug(f"Received response: {response}")
+        return response
     except Exception as e:
+        logger.error(f"Error fetching response: {e}", exc_info=True)
         return f"Error: {e}"
