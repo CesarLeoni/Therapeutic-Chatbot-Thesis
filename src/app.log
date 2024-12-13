@@ -9,3 +9,77 @@
 2024-12-13 15:56:50,563 - src.integration.llm - INFO - Fetching response for prompt: tu ce zici sa beau?
 2024-12-13 15:56:52,522 - src.integration.llm - DEBUG - Received response: Depinde de context și de preferințele tale. Dacă vrei o băutură răcoritoare, poate un suc natural sau un smoothie ar fi o alegere bună. Dacă preferi ceva cald, o cană de ceai sau cafea ar putea fi potrivită. Dacă dorești să te relaxezi, un pahar de vin ar putea fi o opțiune. Ce îți face plăcere să bei?
 2024-12-13 15:56:52,522 - integration.telegram - DEBUG - Generated response: Depinde de context și de preferințele tale. Dacă vrei o băutură răcoritoare, poate un suc natural sau un smoothie ar fi o alegere bună. Dacă preferi ceva cald, o cană de ceai sau cafea ar putea fi potrivită. Dacă dorești să te relaxezi, un pahar de vin ar putea fi o opțiune. Ce îți face plăcere să bei?
+2024-12-13 17:03:47,763 - integration.telegram - INFO - Received message: ping
+2024-12-13 17:03:48,044 - src.integration.llm - INFO - Fetching response for prompt: ping
+2024-12-13 17:03:48,772 - src.integration.llm - DEBUG - Received response: Ping! Cum te pot ajuta astăzi?
+2024-12-13 17:03:48,773 - integration.telegram - DEBUG - Generated response: Ping! Cum te pot ajuta astăzi?
+2024-12-13 17:03:56,082 - integration.telegram - INFO - Received message: ce faci?
+2024-12-13 17:03:56,290 - src.integration.llm - INFO - Fetching response for prompt: ce faci?
+2024-12-13 17:03:56,820 - src.integration.llm - DEBUG - Received response: Sunt aici să te ajut! Cu ce pot să te sprijin astăzi?
+2024-12-13 17:03:56,820 - integration.telegram - DEBUG - Generated response: Sunt aici să te ajut! Cu ce pot să te sprijin astăzi?
+2024-12-13 17:04:03,978 - integration.telegram - INFO - Received message: am nevoie d eun sfat de viata
+2024-12-13 17:04:04,150 - src.integration.llm - INFO - Fetching response for prompt: am nevoie d eun sfat de viata
+2024-12-13 17:04:04,877 - src.integration.llm - DEBUG - Received response: Desigur! Ce anume te preocupă în acest moment? Este vreo situație specifică în care ai nevoie de un sfat?
+2024-12-13 17:04:04,878 - integration.telegram - DEBUG - Generated response: Desigur! Ce anume te preocupă în acest moment? Este vreo situație specifică în care ai nevoie de un sfat?
+2024-12-13 17:04:36,082 - integration.telegram - INFO - Received message: da, sunt intr o dilema existentiala, nu imi e clar daca este mai bine sa fiu singur sau inconjurat de oameni
+2024-12-13 17:04:36,250 - src.integration.llm - INFO - Fetching response for prompt: da, sunt intr o dilema existentiala, nu imi e clar daca este mai bine sa fiu singur sau inconjurat de oameni
+2024-12-13 17:04:41,504 - src.integration.llm - DEBUG - Received response: Înțeleg că te confrunți cu o dilema importantă. A fi singur sau a fi înconjurat de oameni depinde foarte mult de personalitatea ta, de nevoile tale emoționale și de contextul în care te afli. 
+
+Unii oameni se simt împliniți și liniștiți în singurătate, având oportunitatea de a se auto-reflecta, de a-și descoperi pasiunile și de a se concentra asupra dezvoltării personale. Alții, pe de altă parte, găsesc confort și bucurie în interacțiunile sociale, care le oferă suport emoțional și un sentiment de apartenență.
+
+Poate ar fi util să te întrebi câteva lucruri:
+1. Care sunt avantajele și dezavantajele pentru tine, în fiecare dintre aceste situații?
+2. Cum te simți cu adevărat când ești singur? Dar când ești înconjurat de oameni?
+3. Există anumite momente în care preferi una dintre aceste stări mai mult decât cealaltă?
+
+Reflectarea la aceste întrebări te-ar putea ajuta să înțelegi mai bine ce îți dorești cu adevărat. De asemenea, nu trebuie să te simți obligat să alegi o singură opțiune; este posibil să îți dorești atât momente de singurătate, cât și momente de socializare.
+2024-12-13 17:04:41,505 - integration.telegram - DEBUG - Generated response: Înțeleg că te confrunți cu o dilema importantă. A fi singur sau a fi înconjurat de oameni depinde foarte mult de personalitatea ta, de nevoile tale emoționale și de contextul în care te afli. 
+
+Unii oameni se simt împliniți și liniștiți în singurătate, având oportunitatea de a se auto-reflecta, de a-și descoperi pasiunile și de a se concentra asupra dezvoltării personale. Alții, pe de altă parte, găsesc confort și bucurie în interacțiunile sociale, care le oferă suport emoțional și un sentiment de apartenență.
+
+Poate ar fi util să te întrebi câteva lucruri:
+1. Care sunt avantajele și dezavantajele pentru tine, în fiecare dintre aceste situații?
+2. Cum te simți cu adevărat când ești singur? Dar când ești înconjurat de oameni?
+3. Există anumite momente în care preferi una dintre aceste stări mai mult decât cealaltă?
+
+Reflectarea la aceste întrebări te-ar putea ajuta să înțelegi mai bine ce îți dorești cu adevărat. De asemenea, nu trebuie să te simți obligat să alegi o singură opțiune; este posibil să îți dorești atât momente de singurătate, cât și momente de socializare.
+2024-12-13 17:04:57,380 - integration.telegram - INFO - Received message: ce studii in psihologie ai?
+2024-12-13 17:04:57,615 - src.integration.llm - INFO - Fetching response for prompt: ce studii in psihologie ai?
+2024-12-13 17:04:59,693 - src.integration.llm - DEBUG - Received response: Sunt un model AI și nu am studii formale sau calificări ca un psiholog uman. Cu toate acestea, am fost antrenat pe o varietate de surse de informații despre psihologie, inclusiv teorii, studii și concepte psihologice. Pot oferi informații și răspunsuri la întrebări legate de psihologie pe baza cunoștințelor acumulate. Dacă ai întrebări specifice sau subiecte de discutat, sunt aici să ajut!
+2024-12-13 17:04:59,694 - integration.telegram - DEBUG - Generated response: Sunt un model AI și nu am studii formale sau calificări ca un psiholog uman. Cu toate acestea, am fost antrenat pe o varietate de surse de informații despre psihologie, inclusiv teorii, studii și concepte psihologice. Pot oferi informații și răspunsuri la întrebări legate de psihologie pe baza cunoștințelor acumulate. Dacă ai întrebări specifice sau subiecte de discutat, sunt aici să ajut!
+2024-12-13 17:09:04,735 - integration.telegram - INFO - Received message: hello again
+2024-12-13 17:09:04,978 - src.integration.llm - INFO - Fetching response for prompt: hello again
+2024-12-13 17:09:05,726 - src.integration.llm - DEBUG - Received response: Hello! How can I assist you today?
+2024-12-13 17:09:05,726 - integration.telegram - DEBUG - Generated response: Hello! How can I assist you today?
+2024-12-13 17:10:00,297 - integration.telegram - INFO - Received message: 🎯
+2024-12-13 17:10:00,476 - src.integration.llm - INFO - Fetching response for prompt: 🎯
+2024-12-13 17:10:01,311 - src.integration.llm - DEBUG - Received response: Bun venit! Cu ce te pot ajuta astăzi?
+2024-12-13 17:10:01,312 - integration.telegram - DEBUG - Generated response: Bun venit! Cu ce te pot ajuta astăzi?
+2024-12-13 17:10:08,346 - integration.telegram - INFO - Received message: cum te numesti?
+2024-12-13 17:10:08,494 - src.integration.llm - INFO - Fetching response for prompt: cum te numesti?
+2024-12-13 17:10:09,604 - src.integration.llm - DEBUG - Received response: Sunt un model de inteligență artificială creat de OpenAI și nu am un nume propriu. Mă poți numi simplu asistent sau în alt mod care îți place! Cu ce te pot ajuta?
+2024-12-13 17:10:09,604 - integration.telegram - DEBUG - Generated response: Sunt un model de inteligență artificială creat de OpenAI și nu am un nume propriu. Mă poți numi simplu asistent sau în alt mod care îți place! Cu ce te pot ajuta?
+2024-12-13 17:10:23,291 - integration.telegram - INFO - Received message: Cf bro
+2024-12-13 17:10:23,448 - src.integration.llm - INFO - Fetching response for prompt: Cf bro
+2024-12-13 17:10:23,937 - src.integration.llm - DEBUG - Received response: Hello! How can I assist you today?
+2024-12-13 17:10:23,937 - integration.telegram - DEBUG - Generated response: Hello! How can I assist you today?
+2024-12-13 17:10:35,063 - integration.telegram - INFO - Received message: Ce faci?
+2024-12-13 17:10:35,260 - src.integration.llm - INFO - Fetching response for prompt: Ce faci?
+2024-12-13 17:10:36,510 - src.integration.llm - DEBUG - Received response: Sunt aici să te ajut! Cu ce te pot sprijini astăzi?
+2024-12-13 17:10:36,510 - integration.telegram - DEBUG - Generated response: Sunt aici să te ajut! Cu ce te pot sprijini astăzi?
+2024-12-13 17:11:26,645 - integration.telegram - INFO - Downloaded audio file to voice.ogg
+2024-12-13 17:11:26,729 - src.integration.speech_to_text - INFO - Starting transcription for voice.ogg
+2024-12-13 17:11:41,677 - src.integration.speech_to_text - DEBUG - Transcription result:  Cum te numești și care este vârstata?
+2024-12-13 17:11:41,677 - src.integration.llm - INFO - Fetching response for prompt:  Cum te numești și care este vârstata?
+2024-12-13 17:11:42,527 - src.integration.llm - DEBUG - Received response: Sunt un asistent virtual și nu am un nume sau o vârstă, dar sunt aici să te ajut cu orice informație sau sprijin de care ai nevoie. Cum pot să te ajut astăzi?
+2024-12-13 17:11:42,527 - integration.telegram - DEBUG - Transcription:  Cum te numești și care este vârstata?, Response: Sunt un asistent virtual și nu am un nume sau o vârstă, dar sunt aici să te ajut cu orice informație sau sprijin de care ai nevoie. Cum pot să te ajut astăzi?
+2024-12-13 17:12:40,415 - integration.telegram - INFO - Downloaded audio file to voice.ogg
+2024-12-13 17:12:40,618 - src.integration.speech_to_text - INFO - Starting transcription for voice.ogg
+2024-12-13 17:12:44,096 - src.integration.speech_to_text - DEBUG - Transcription result:  Tără p sănți pui care este limba în care vorbesc eu acum. Ce limba este asta?
+2024-12-13 17:12:44,096 - src.integration.llm - INFO - Fetching response for prompt:  Tără p sănți pui care este limba în care vorbesc eu acum. Ce limba este asta?
+2024-12-13 17:12:44,996 - src.integration.llm - DEBUG - Received response: Limba în care vorbești acum este română. Dacă ai alte întrebări sau ai nevoie de ajutor, sunt aici să te ajut!
+2024-12-13 17:12:44,996 - integration.telegram - DEBUG - Transcription:  Tără p sănți pui care este limba în care vorbesc eu acum. Ce limba este asta?, Response: Limba în care vorbești acum este română. Dacă ai alte întrebări sau ai nevoie de ajutor, sunt aici să te ajut!
+2024-12-13 17:31:21,794 - integration.telegram - INFO - Received message: Cu ce vrei tu
+2024-12-13 17:31:22,080 - src.integration.llm - INFO - Fetching response for prompt: Cu ce vrei tu
+2024-12-13 17:31:23,208 - src.integration.llm - DEBUG - Received response: Înțeleg că ești curios sau poate că te simți într-o stare de contemplare. Cum te pot ajuta? Ai vreo întrebare specifică sau vreo temă de discuție care te interesează?
+2024-12-13 17:31:23,208 - integration.telegram - DEBUG - Generated response: Înțeleg că ești curios sau poate că te simți într-o stare de contemplare. Cum te pot ajuta? Ai vreo întrebare specifică sau vreo temă de discuție care te interesează?
