@@ -1,12 +1,27 @@
-version: '4.31.1'
 services:
   db:
-    image: postgres
+    image: postgres:latest
+    container_name: src-db-1
     environment:
+      POSTGRES_DB: MyChatbotDB1.0
+      POSTGRES_USER: cesar
       POSTGRES_PASSWORD: ParolaBDLicenta2025  # Set the password for the superuser
     ports:
       - "5432:5432"  # Expose PostgreSQL port to your host
+    networks:
+      - mynetwork
+
+  app:
+    build:        # Assuming your Python app has a Dockerfile
+      context: .
+      dockerfile: Dockerfile
+    container_name: app
+    depends_on:
+      - db
     volumes:
-      - postgres_data:/var/lib/postgresql/data  # Persist data between restarts
-volumes:
-  postgres_data:
+      - ./src:/app/src
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:

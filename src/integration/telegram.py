@@ -7,6 +7,8 @@ from telegram.error import Conflict
 from src.conf.logger import get_logger
 import os
 import asyncio
+from src.integration.db import save_message_log
+
 
 logger = get_logger(__name__)  # Set up the logger
 
@@ -22,15 +24,23 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     try:
         user_message = update.message.text
-        logger.info(f"Received message: {user_message}")
+        user = update.effective_user
+        user_id = user.id
+        user_name = f"{user.first_name or ''} {user.last_name or ''}".strip()
+        logger.info(f"User {user_name} with id {user_id} sent the message: {user_message}")
         await update.message.reply_text("Mă gândesc...")
 
         response = await fetch_response(user_message)
         logger.debug(f"Generated response: {response}")
         await update.message.reply_text(response)
+
+        # Save the log data to the database
+        save_message_log(user_id, user_name, user_message, response)
+
     except Exception as e:
         logger.error(f"Error handling message: {e}", exc_info=True)
         await update.message.reply_text(f"Întâmpin eroarea : {e}")
+
 
 async def handle_voice(update: Update, context: ContextTypes.DEFAULT_TYPE):
     try:
@@ -47,9 +57,14 @@ async def handle_voice(update: Update, context: ContextTypes.DEFAULT_TYPE):
         logger.debug(f"Transcription: {transcription}, Response: {response}")
 
         await update.message.reply_text(f"You said: {str(transcription)}\n{str(response)}")
+
+        # Save the log data to the database, including voice transcription
+        save_message_log(update.effective_user.id, update.effective_user.first_name,
+                         "Voice message received", response, transcription)
+
     except Exception as e:
         logger.error(f"Error handling voice message: {e}", exc_info=True)
-        await update.message.reply_text("An error occurred while processing your voice message.")
+        await update.message.reply_text(f"Întâmpin eroarea : {e}")
 
 async def error_handler(update, context):
     if isinstance(context.error, Conflict):

@@ -83,3 +83,53 @@ Reflectarea la aceste întrebări te-ar putea ajuta să înțelegi mai bine ce �
 2024-12-13 17:31:22,080 - src.integration.llm - INFO - Fetching response for prompt: Cu ce vrei tu
 2024-12-13 17:31:23,208 - src.integration.llm - DEBUG - Received response: Înțeleg că ești curios sau poate că te simți într-o stare de contemplare. Cum te pot ajuta? Ai vreo întrebare specifică sau vreo temă de discuție care te interesează?
 2024-12-13 17:31:23,208 - integration.telegram - DEBUG - Generated response: Înțeleg că ești curios sau poate că te simți într-o stare de contemplare. Cum te pot ajuta? Ai vreo întrebare specifică sau vreo temă de discuție care te interesează?
+2024-12-20 13:48:24,863 - __main__ - INFO - Starting main application
+2024-12-20 13:48:24,864 - integration.telegram - INFO - Initializing the bot
+2024-12-20 13:48:25,841 - integration.telegram - INFO - Bot is running...
+2024-12-20 13:48:26,294 - integration.telegram - ERROR - Error handling message: can only concatenate str (not "NoneType") to str
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Therapeutic-Chatbot-Thesis\src\integration\telegram.py", line 27, in handle_message
+    user_name = user.first_name + user.last_name
+                ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "NoneType") to str
+2024-12-20 13:48:35,838 - integration.telegram - ERROR - Error handling message: can only concatenate str (not "NoneType") to str
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Therapeutic-Chatbot-Thesis\src\integration\telegram.py", line 27, in handle_message
+    user_name = user.first_name + user.last_name
+                ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "NoneType") to str
+2024-12-20 13:49:06,467 - integration.telegram - INFO - Bot received a /start command
+2024-12-20 13:49:15,068 - integration.telegram - ERROR - Error handling message: can only concatenate str (not "NoneType") to str
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Therapeutic-Chatbot-Thesis\src\integration\telegram.py", line 27, in handle_message
+    user_name = user.first_name + user.last_name
+                ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "NoneType") to str
+2024-12-20 13:51:40,631 - __main__ - INFO - Starting main application
+2024-12-20 13:51:40,631 - integration.telegram - INFO - Initializing the bot
+2024-12-20 13:51:41,441 - integration.telegram - INFO - Bot is running...
+2024-12-20 13:51:42,851 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Cf bro?
+2024-12-20 13:51:42,992 - src.integration.llm - INFO - Fetching response for prompt: Cf bro?
+2024-12-20 13:51:44,801 - src.integration.llm - DEBUG - Received response: Se pare că nu am înțeles expresia „Cf bro”. Ai putea oferi mai multe detalii sau să reformulezi întrebarea?
+2024-12-20 13:51:44,801 - integration.telegram - DEBUG - Generated response: Se pare că nu am înțeles expresia „Cf bro”. Ai putea oferi mai multe detalii sau să reformulezi întrebarea?
+2024-12-20 13:51:51,847 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Ce faci bro?
+2024-12-20 13:51:52,082 - src.integration.llm - INFO - Fetching response for prompt: Ce faci bro?
+2024-12-20 13:51:52,973 - src.integration.llm - DEBUG - Received response: Salut! Eu sunt aici să te ajut cu orice întrebări sau subiecte pe care le ai în minte. Cum pot fi de folos?
+2024-12-20 13:51:52,973 - integration.telegram - DEBUG - Generated response: Salut! Eu sunt aici să te ajut cu orice întrebări sau subiecte pe care le ai în minte. Cum pot fi de folos?
+2024-12-20 13:52:02,190 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Cu nimic ms
+2024-12-20 13:52:02,367 - src.integration.llm - INFO - Fetching response for prompt: Cu nimic ms
+2024-12-20 13:52:03,216 - src.integration.llm - DEBUG - Received response: Cu plăcere! Dacă ai nevoie de ajutor sau informații suplimentare, nu ezita să îmi spui.
+2024-12-20 13:52:03,217 - integration.telegram - DEBUG - Generated response: Cu plăcere! Dacă ai nevoie de ajutor sau informații suplimentare, nu ezita să îmi spui.
+2024-12-20 17:14:23,027 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Salut
+2024-12-20 17:14:23,522 - src.integration.llm - INFO - Fetching response for prompt: Salut
+2024-12-20 17:14:26,444 - src.integration.llm - DEBUG - Received response: Salut! Cum te pot ajuta astăzi?
+2024-12-20 17:14:26,444 - integration.telegram - DEBUG - Generated response: Salut! Cum te pot ajuta astăzi?
+2024-12-20 20:16:58,658 - __main__ - INFO - Starting main application
+2024-12-20 20:16:58,660 - integration.telegram - INFO - Initializing the bot
+2024-12-20 20:16:59,346 - integration.telegram - INFO - Bot is running...
+2024-12-20 20:18:35,269 - __main__ - INFO - Starting main application
+2024-12-20 20:18:35,269 - integration.telegram - INFO - Initializing the bot
+2024-12-20 20:18:35,957 - integration.telegram - INFO - Bot is running...
+2024-12-20 20:19:30,033 - __main__ - INFO - Starting main application
+2024-12-20 20:19:30,033 - integration.telegram - INFO - Initializing the bot
+2024-12-20 20:19:30,683 - integration.telegram - INFO - Bot is running...
