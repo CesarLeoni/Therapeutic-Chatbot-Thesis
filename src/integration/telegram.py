@@ -1,10 +1,10 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
-from src.integration.llm import fetch_response
+from llm import fetch_response
 from dotenv import load_dotenv
-from src.integration.speech_to_text import fetch_transcription
+from speech_to_text import fetch_transcription
 from telegram.error import Conflict
-from src.conf.logger import get_logger
+from ..conf.logger import get_logger
 import os
 import asyncio
 from src.integration.db import save_message_log
