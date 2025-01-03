@@ -36,6 +36,12 @@ def create_log_table():
             '''
             cursor.execute(create_table_query)
             conn.commit()
+            cursor.execute("SELECT to_regclass('public.message_log');")
+            result = cursor.fetchone()
+            if result and result[0] == 'message_log':
+                print("Table 'message_log' confirmed created.")
+            else:
+                print("Table 'message_log' does not exist.")
             cursor.close()
         except Exception as e:
             print(f"Error creating log table: {e}")
@@ -59,3 +65,13 @@ def save_message_log(user_id, user_name, message_sent, message_received, voice_t
             print(f"Error saving log data: {e}")
         finally:
             conn.close()
+
+# Main function
+if __name__ == "__main__":
+    create_log_table()
+    save_message_log(
+        user_id=123456789,
+        user_name="Test User",
+        message_sent="Hello",
+        message_received="Hi there!"
+    )

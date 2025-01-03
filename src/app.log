@@ -133,3 +133,294 @@ TypeError: can only concatenate str (not "NoneType") to str
 2024-12-20 20:19:30,033 - __main__ - INFO - Starting main application
 2024-12-20 20:19:30,033 - integration.telegram - INFO - Initializing the bot
 2024-12-20 20:19:30,683 - integration.telegram - INFO - Bot is running...
+2025-01-03 19:05:29,571 - __main__ - INFO - Starting main application
+2025-01-03 19:05:29,573 - integration.telegram - INFO - Initializing the bot
+2025-01-03 19:05:30,219 - integration.telegram - INFO - Bot is running...
+2025-01-03 19:06:15,465 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Super
+2025-01-03 19:06:15,764 - integration.llm - INFO - Fetching response for prompt: Super
+2025-01-03 19:06:16,703 - integration.llm - DEBUG - Received response: Îți mulțumesc! Cu ce te pot ajuta astăzi?
+2025-01-03 19:06:16,703 - integration.telegram - DEBUG - Generated response: Îți mulțumesc! Cu ce te pot ajuta astăzi?
+2025-01-03 19:08:35,409 - __main__ - INFO - Starting main application
+2025-01-03 19:08:35,411 - integration.telegram - INFO - Initializing the bot
+2025-01-03 19:08:35,467 - integration.telegram - INFO - Bot is running...
+2025-01-03 19:08:36,402 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 21:08:41,017 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:08:42,547 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 21:08:47,926 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:08:50,279 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 21:08:53,716 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:08:57,149 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 21:09:02,462 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:09:07,870 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 21:09:15,637 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:09:23,431 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 21:09:35,040 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:09:46,600 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 21:10:03,882 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:10:21,174 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 21:10:47,032 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:11:12,916 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:11:43,999 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:12:15,116 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:12:46,162 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:13:17,363 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:13:48,429 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:14:19,559 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:14:50,641 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:15:21,890 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:15:52,778 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:16:23,835 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:16:54,953 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:17:26,083 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:17:57,176 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:18:28,244 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:18:59,332 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:19:30,396 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:20:01,547 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:20:32,682 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:21:03,767 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:21:34,854 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:22:05,920 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:22:36,988 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:23:08,059 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:23:39,130 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:24:10,209 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:24:41,283 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:25:12,368 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:25:43,454 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:26:14,553 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:26:45,623 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:27:16,767 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:27:47,821 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:28:18,889 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:28:49,992 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:29:21,100 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:29:52,182 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:30:23,270 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:30:54,362 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:31:25,416 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:31:56,532 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:32:27,620 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:32:58,686 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:33:29,821 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:34:00,909 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:34:31,953 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:35:03,062 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:35:34,139 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:36:05,244 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:36:36,320 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:37:07,399 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:37:38,481 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:38:09,548 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:38:40,642 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:39:11,697 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:39:42,772 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:40:13,845 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:40:44,941 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 21:41:01,733 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Mai functionezi?
+2025-01-03 21:41:02,070 - integration.llm - INFO - Fetching response for prompt: Mai functionezi?
+2025-01-03 21:41:02,966 - integration.llm - DEBUG - Received response: Da, funcționez! Cu ce te pot ajuta?
+2025-01-03 21:41:02,967 - integration.telegram - DEBUG - Generated response: Da, funcționez! Cu ce te pot ajuta?
+2025-01-03 21:41:14,570 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Wow
+Zi ce stii despre mine
+2025-01-03 21:41:14,891 - integration.llm - INFO - Fetching response for prompt: Wow
+Zi ce stii despre mine
+2025-01-03 19:41:15,194 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Wow
+Zi ce stii despre mine
+2025-01-03 19:41:15,460 - integration.llm - INFO - Fetching response for prompt: Wow
+Zi ce stii despre mine
+2025-01-03 19:41:17,391 - integration.llm - DEBUG - Received response: Nu am acces la informații personale despre tine, așa că nu pot ști nimic specific despre tine. Tot ce pot face este să discutăm despre subiectele care te interesează sau să îți răspund la întrebări. Cu ce te pot ajuta?
+2025-01-03 19:41:17,392 - integration.telegram - DEBUG - Generated response: Nu am acces la informații personale despre tine, așa că nu pot ști nimic specific despre tine. Tot ce pot face este să discutăm despre subiectele care te interesează sau să îți răspund la întrebări. Cu ce te pot ajuta?
+2025-01-03 21:41:19,910 - integration.llm - DEBUG - Received response: Nu am acces la informații personale despre utilizatori, așa că nu știu nimic despre tine. Dacă dorești, putem discuta despre subiecte care te interesează sau despre care ai întrebări. Cum pot să te ajut?
+2025-01-03 21:41:19,912 - integration.telegram - DEBUG - Generated response: Nu am acces la informații personale despre utilizatori, așa că nu știu nimic despre tine. Dacă dorești, putem discuta despre subiecte care te interesează sau despre care ai întrebări. Cum pot să te ajut?
+2025-01-03 19:41:20,108 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 21:41:24,693 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:41:26,252 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 21:41:31,585 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:41:33,902 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 21:41:37,161 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: De ce raspunzi de 2 ori?
+2025-01-03 19:41:37,341 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: De ce raspunzi de 2 ori?
+2025-01-03 21:41:37,401 - integration.llm - INFO - Fetching response for prompt: De ce raspunzi de 2 ori?
+2025-01-03 19:41:37,560 - integration.llm - INFO - Fetching response for prompt: De ce raspunzi de 2 ori?
+2025-01-03 19:41:39,026 - integration.llm - DEBUG - Received response: Este posibil să fi existat o neînțelegere sau o eroare tehnică care a dus la trimiterea aceleași răspunsuri de două ori. Dacă ai nevoie de clarificări suplimentare sau de informații adăugate, te rog să-mi spui!
+2025-01-03 19:41:39,027 - integration.telegram - DEBUG - Generated response: Este posibil să fi existat o neînțelegere sau o eroare tehnică care a dus la trimiterea aceleași răspunsuri de două ori. Dacă ai nevoie de clarificări suplimentare sau de informații adăugate, te rog să-mi spui!
+2025-01-03 21:41:39,138 - integration.llm - DEBUG - Received response: Îmi pare rău dacă ai observat o dublare a răspunsurilor. Acest lucru poate apărea din diverse motive tehnice. Te rog să îmi spui despre ce întrebare este vorba, iar eu voi încerca să îți ofer un răspuns clar și concis.
+2025-01-03 21:41:39,138 - integration.telegram - DEBUG - Generated response: Îmi pare rău dacă ai observat o dublare a răspunsurilor. Acest lucru poate apărea din diverse motive tehnice. Te rog să îmi spui despre ce întrebare este vorba, iar eu voi încerca să îți ofer un răspuns clar și concis.
+2025-01-03 19:41:39,195 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 21:41:43,766 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:41:45,326 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 21:41:50,643 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:41:52,948 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 21:41:56,391 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:41:59,824 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 21:42:05,068 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:42:10,299 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 21:42:18,047 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:42:25,795 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 21:42:37,380 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:42:48,942 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 21:43:06,209 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:43:23,484 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 21:43:49,286 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:44:15,077 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:44:46,140 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:45:17,202 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:45:48,256 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:46:19,334 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:46:50,351 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:47:21,420 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:47:52,478 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:48:23,510 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:48:54,566 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:49:25,625 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:49:56,679 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:50:27,737 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:50:58,782 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:51:29,836 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:52:00,886 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:52:31,945 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:53:02,990 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:53:34,038 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:54:05,099 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:54:36,153 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:55:07,205 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:55:38,274 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:56:09,318 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:56:40,377 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:57:11,423 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:57:42,465 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:58:13,539 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:58:44,582 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:59:15,641 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 19:59:46,691 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:00:17,736 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:00:48,789 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:01:19,829 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:01:50,892 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:02:21,951 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:02:53,004 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:03:24,059 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:03:55,109 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:04:26,171 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:04:57,227 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:05:28,300 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:05:59,377 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:06:30,411 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:07:01,464 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:07:32,515 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:08:03,565 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:08:34,616 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:09:05,670 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:09:36,718 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:10:07,767 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:10:38,840 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:11:09,881 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:11:40,932 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:12:11,999 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:12:43,049 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:13:14,134 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:13:45,178 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:14:16,212 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:14:47,298 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:15:18,375 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:15:49,459 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:16:20,533 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 20:19:10,362 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Salut
+2025-01-03 20:19:10,616 - integration.llm - INFO - Fetching response for prompt: Salut
+2025-01-03 20:19:11,697 - integration.llm - DEBUG - Received response: Salut! Cum te pot ajuta astăzi?
+2025-01-03 20:19:11,698 - integration.telegram - DEBUG - Generated response: Salut! Cum te pot ajuta astăzi?
+2025-01-03 20:57:03,678 - __main__ - INFO - Starting main application
+2025-01-03 20:57:03,679 - integration.telegram - INFO - Initializing the bot
+2025-01-03 20:57:03,754 - integration.telegram - INFO - Bot is running...
+2025-01-03 21:18:48,490 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Salut
+2025-01-03 21:18:48,891 - integration.llm - INFO - Fetching response for prompt: Salut
+2025-01-03 21:18:50,150 - integration.llm - DEBUG - Received response: Salut! Cum te pot ajuta astăzi?
+2025-01-03 21:18:50,151 - integration.telegram - DEBUG - Generated response: Salut! Cum te pot ajuta astăzi?
+2025-01-03 21:18:59,209 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Ai baza de date in spate?
+2025-01-03 21:18:59,423 - integration.llm - INFO - Fetching response for prompt: Ai baza de date in spate?
+2025-01-03 21:19:01,716 - integration.llm - DEBUG - Received response: Ca model de limbaj, nu am o bază de date în sens tradițional. Funcționez pe baza unor algoritmi de învățare automată și sunt antrenat cu un set vast de date textuale, dar nu am acces direct la informații sau baze de date externe. Pot oferi informații și răspunsuri bazate pe ceea ce am fost antrenat, dar nu pot face căutări în timp real sau accesa informații actualizate. Dacă ai nevoie de ajutor cu un anumit subiect, te rog să-mi spui!
+2025-01-03 21:19:01,717 - integration.telegram - DEBUG - Generated response: Ca model de limbaj, nu am o bază de date în sens tradițional. Funcționez pe baza unor algoritmi de învățare automată și sunt antrenat cu un set vast de date textuale, dar nu am acces direct la informații sau baze de date externe. Pot oferi informații și răspunsuri bazate pe ceea ce am fost antrenat, dar nu pot face căutări în timp real sau accesa informații actualizate. Dacă ai nevoie de ajutor cu un anumit subiect, te rog să-mi spui!
+2025-01-03 21:33:45,235 - __main__ - INFO - Starting main application
+2025-01-03 21:33:45,236 - integration.telegram - INFO - Initializing the bot
+2025-01-03 21:33:45,304 - integration.telegram - INFO - Bot is running...
+2025-01-03 21:34:01,021 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Salut
+2025-01-03 21:34:01,327 - integration.llm - INFO - Fetching response for prompt: Salut
+2025-01-03 21:34:02,379 - integration.llm - DEBUG - Received response: Salut! Cum te pot ajuta astăzi?
+2025-01-03 21:34:02,380 - integration.telegram - DEBUG - Generated response: Salut! Cum te pot ajuta astăzi?
+2025-01-03 21:41:09,171 - __main__ - INFO - Starting main application
+2025-01-03 21:41:09,173 - integration.telegram - INFO - Initializing the bot
+2025-01-03 21:41:09,247 - integration.telegram - INFO - Bot is running...
+2025-01-03 21:41:09,611 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Salut
+2025-01-03 21:41:09,702 - integration.llm - INFO - Fetching response for prompt: Salut
+2025-01-03 21:41:10,757 - integration.llm - DEBUG - Received response: Salut! Cum te pot ajuta astăzi?
+2025-01-03 21:41:10,758 - integration.telegram - DEBUG - Generated response: Salut! Cum te pot ajuta astăzi?
+2025-01-03 21:44:14,781 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Salut
+Cmf
+2025-01-03 21:44:15,063 - integration.llm - INFO - Fetching response for prompt: Salut
+Cmf
+2025-01-03 21:44:15,720 - integration.llm - DEBUG - Received response: Salut! Cum te pot ajuta astăzi?
+2025-01-03 21:44:15,721 - integration.telegram - DEBUG - Generated response: Salut! Cum te pot ajuta astăzi?
+2025-01-03 21:44:20,897 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Hei
+2025-01-03 21:44:21,210 - integration.llm - INFO - Fetching response for prompt: Hei
+2025-01-03 21:44:22,060 - integration.llm - DEBUG - Received response: Hei! Cum te pot ajuta astăzi?
+2025-01-03 21:44:22,061 - integration.telegram - DEBUG - Generated response: Hei! Cum te pot ajuta astăzi?
+2025-01-03 21:46:52,842 - __main__ - INFO - Starting main application
+2025-01-03 21:46:52,843 - integration.telegram - INFO - Initializing the bot
+2025-01-03 21:46:52,884 - integration.telegram - INFO - Bot is running...
+2025-01-03 21:47:39,287 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Vreau sa stiu cum te cheama
+2025-01-03 21:47:39,477 - integration.llm - INFO - Fetching response for prompt: Vreau sa stiu cum te cheama
+2025-01-03 21:47:43,257 - integration.llm - DEBUG - Received response: Sunt un model de inteligență artificială și nu am un nume propriu, dar poți să-mi spui Assistant. Cu ce te pot ajuta astăzi?
+2025-01-03 21:47:43,258 - integration.telegram - DEBUG - Generated response: Sunt un model de inteligență artificială și nu am un nume propriu, dar poți să-mi spui Assistant. Cu ce te pot ajuta astăzi?
+2025-01-03 21:49:38,862 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Asta e primul mesaj pe care il vad in db
+2025-01-03 21:49:39,061 - integration.llm - INFO - Fetching response for prompt: Asta e primul mesaj pe care il vad in db
+2025-01-03 21:49:39,654 - integration.llm - DEBUG - Received response: Bun venit! Cu ce te pot ajuta astăzi?
+2025-01-03 21:49:39,654 - integration.telegram - DEBUG - Generated response: Bun venit! Cu ce te pot ajuta astăzi?
+2025-01-03 21:52:16,171 - __main__ - INFO - Starting main application
+2025-01-03 21:52:16,172 - integration.telegram - INFO - Initializing the bot
+2025-01-03 21:52:16,217 - integration.telegram - INFO - Bot is running...
+2025-01-03 21:52:16,752 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Alte mesaje?
+2025-01-03 21:52:16,844 - integration.llm - INFO - Fetching response for prompt: Alte mesaje?
+2025-01-03 21:52:18,073 - integration.llm - DEBUG - Received response: Sigur, pot oferi alte mesaje sau informații în diferite domenii. Despre ce anume ai dori să discutăm? Poate fi vorba despre sănătatea mentală, dezvoltarea personală, sau orice alt subiect care te interesează. Te rog să-mi spui!
+2025-01-03 21:52:18,073 - integration.telegram - DEBUG - Generated response: Sigur, pot oferi alte mesaje sau informații în diferite domenii. Despre ce anume ai dori să discutăm? Poate fi vorba despre sănătatea mentală, dezvoltarea personală, sau orice alt subiect care te interesează. Te rog să-mi spui!
+2025-01-03 21:52:20,365 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Incerc acum ca am dat run
+2025-01-03 21:52:20,477 - integration.llm - INFO - Fetching response for prompt: Incerc acum ca am dat run
+2025-01-03 21:52:21,109 - integration.llm - DEBUG - Received response: Se pare că ai început un proces sau o activitate. Cu ce pot să te ajut? Ai nevoie de suport într-o anumită zonă sau ai o întrebare specifică?
+2025-01-03 21:52:21,109 - integration.telegram - DEBUG - Generated response: Se pare că ai început un proces sau o activitate. Cu ce pot să te ajut? Ai nevoie de suport într-o anumită zonă sau ai o întrebare specifică?
+2025-01-03 18:48:24,982 - __main__ - INFO - Starting main application
+2025-01-03 18:48:24,983 - integration.telegram - INFO - Initializing the bot
+2025-01-03 18:48:25,516 - integration.telegram - INFO - Bot is running...
+2025-01-03 19:00:03,647 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Salut
+2025-01-03 19:00:04,054 - integration.llm - INFO - Fetching response for prompt: Salut
+2025-01-03 19:00:05,302 - integration.llm - DEBUG - Received response: Salut! Cum te pot ajuta astăzi?
+2025-01-03 19:00:05,303 - integration.telegram - DEBUG - Generated response: Salut! Cum te pot ajuta astăzi?
+2025-01-03 19:00:10,811 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Esti bine?
+2025-01-03 19:00:10,991 - integration.llm - INFO - Fetching response for prompt: Esti bine?
+2025-01-03 19:00:11,936 - integration.llm - DEBUG - Received response: Da, mulțumesc! Cum te pot ajuta astăzi?
+2025-01-03 19:00:11,936 - integration.telegram - DEBUG - Generated response: Da, mulțumesc! Cum te pot ajuta astăzi?
+2025-01-03 19:00:29,038 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Cine esti?
+2025-01-03 19:00:29,211 - integration.llm - INFO - Fetching response for prompt: Cine esti?
+2025-01-03 19:00:30,986 - integration.llm - DEBUG - Received response: Sunt un model de inteligență artificială creat pentru a oferi informații și asistență în diverse domenii, inclusiv psihologie. Pot să te ajut cu întrebări sau discuții despre sănătatea mentală, relații, tehnici de gestionare a stressului și multe altele. Cum pot să te ajut astăzi?
+2025-01-03 19:00:30,986 - integration.telegram - DEBUG - Generated response: Sunt un model de inteligență artificială creat pentru a oferi informații și asistență în diverse domenii, inclusiv psihologie. Pot să te ajut cu întrebări sau discuții despre sănătatea mentală, relații, tehnici de gestionare a stressului și multe altele. Cum pot să te ajut astăzi?
+2025-01-03 19:00:47,264 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Stress se zice stres
+2025-01-03 19:00:47,673 - integration.llm - INFO - Fetching response for prompt: Stress se zice stres
+2025-01-03 19:00:49,518 - integration.llm - DEBUG - Received response: Da, în limba română se folosește cuvântul „stres” pentru a descrie tensiunea și presiunea emoțională sau mentală. Acesta este un termen comun în psihologie și se referă la reacția organismului la factori externi care pot provoca disconfort sau solicitare. Dacă dorești, pot să îți ofer mai multe informații despre cauzele stresului sau modalități de gestionare a acestuia!
+2025-01-03 19:00:49,519 - integration.telegram - DEBUG - Generated response: Da, în limba română se folosește cuvântul „stres” pentru a descrie tensiunea și presiunea emoțională sau mentală. Acesta este un termen comun în psihologie și se referă la reacția organismului la factori externi care pot provoca disconfort sau solicitare. Dacă dorești, pot să îți ofer mai multe informații despre cauzele stresului sau modalități de gestionare a acestuia!
+2025-01-03 23:56:51,628 - __main__ - INFO - Starting main application
+2025-01-03 23:56:51,629 - integration.telegram - INFO - Initializing the bot
+2025-01-03 23:56:52,331 - integration.telegram - INFO - Bot is running...
+2025-01-03 21:56:52,855 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 23:56:57,413 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 21:56:59,093 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 21:57:02,747 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: 2 boti?
+2025-01-03 21:57:03,208 - integration.llm - INFO - Fetching response for prompt: 2 boti?
+2025-01-03 23:57:04,427 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 21:57:04,949 - integration.llm - DEBUG - Received response: Se pare că întrebi despre "boti". Ar putea fi o referire la boți (sau roboți) folosiți în diverse aplicații sau platforme. Te referi la boți de conversație, roboți în anumite jocuri sau la altceva? Îmi poți oferi mai multe detalii pentru a te ajuta mai bine?
+2025-01-03 21:57:04,950 - integration.telegram - DEBUG - Generated response: Se pare că întrebi despre "boti". Ar putea fi o referire la boți (sau roboți) folosiți în diverse aplicații sau platforme. Te referi la boți de conversație, roboți în anumite jocuri sau la altceva? Îmi poți oferi mai multe detalii pentru a te ajuta mai bine?
+2025-01-03 21:57:06,782 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 23:57:11,379 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 21:57:14,827 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 23:57:20,128 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 21:57:25,352 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 23:57:28,810 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 21:57:36,563 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.
+2025-01-03 23:57:41,787 - integration.telegram - WARNING - Conflict error: Ensure only one bot instance is running.

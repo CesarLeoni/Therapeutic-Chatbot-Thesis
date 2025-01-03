@@ -1,7 +1,7 @@
 from openai import OpenAI
 import os
 from dotenv import load_dotenv
-from src.conf.logger import get_logger
+from conf.logger import get_logger
 
 logger = get_logger(__name__)
 

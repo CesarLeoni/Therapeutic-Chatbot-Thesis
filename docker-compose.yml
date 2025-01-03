@@ -26,7 +26,7 @@ services:
       - "5000:5000"
     volumes:
       - ./src:/app
-    command: python /app/main.py
+   # command: python /app/main.py
     networks:
       - mynetwork
 

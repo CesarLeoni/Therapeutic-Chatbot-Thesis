@@ -1,6 +1,6 @@
 import whisper
 import ffmpeg
-from src.conf.logger import get_logger
+from conf.logger import get_logger
 
 logger = get_logger(__name__)
 

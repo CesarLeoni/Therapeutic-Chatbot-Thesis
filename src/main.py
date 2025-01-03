@@ -5,6 +5,7 @@ from conf.logger import get_logger
 import psycopg2
 from psycopg2 import sql
 import warnings
+from integration.db import create_log_table
 
 # Load environment variables from .env file
 dotenv_path = os.path.join(os.path.dirname(__file__), '.env')
@@ -37,6 +38,7 @@ warnings.filterwarnings("ignore", category=FutureWarning, module="torch")
 
 if __name__ == '__main__':
     conn = connect_to_db()
+    create_log_table()
     logger.info("Starting main application")
     try:
         integration.telegram.main()
