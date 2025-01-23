@@ -19,7 +19,7 @@ services:
       dockerfile: Dockerfile
     container_name: chatbot-app
     environment:
-      DATABASE_URL: postgres://cesar:ParolaBDLicenta2025@db:5432/MyChatbotDB
+      DATABASE_URL: postgres://cesar:ParolaBDLicenta2025@db:5432/postgres
     depends_on:
       - db
     ports:

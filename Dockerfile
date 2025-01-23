@@ -17,6 +17,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the rest of the application code
 COPY src .
+# src/ gets mapped to /app inside the contain
 
 # Preload the Whisper model by running the command
 # This ensures that Whisper is loaded and cached during the build

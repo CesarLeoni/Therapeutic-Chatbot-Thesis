@@ -23,7 +23,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     logger.info("Bot received a /start command")
-    await update.message.reply_text("Salutare! Eu sunt PsychoBot, bossule! Terapeutul și sfătuitorul tău! Zi-mi fatioare ce te framanta.")
+    await update.message.reply_text("Salutare!\nEu sunt Alma, psihologul tău personal, mereu la dispoziția ta ❤️")
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     try:
@@ -40,6 +40,9 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
 
         # Escape special characters except for formatting symbols (* and _)
         escaped_response = re.sub(r"([_~`>+\-=|{}.!()\[\]])", r"\\\1", response)
+
+        typing_duration = len(response) * 0.04  # 50ms per character
+        asyncio.create_task(asyncio.sleep(typing_duration))
         await update.message.reply_text(escaped_response,parse_mode="MarkdownV2")
 
         # Save the log data to the database
