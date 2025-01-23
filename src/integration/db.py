@@ -6,10 +6,10 @@ from datetime import datetime
 def connect_to_db():
     try:
         conn = psycopg2.connect(
-            dbname="MyChatbotDB1.0",
+            dbname="postgres",
             user="cesar",
             password="ParolaBDLicenta2025",
-            host="db",  # Assuming the db service name in docker-compose.yml
+            host="chatbot-db",  # Assuming the db service name in docker-compose.yml
             port="5432"
         )
         return conn
@@ -65,6 +65,10 @@ def save_message_log(user_id, user_name, message_sent, message_received, voice_t
             print(f"Error saving log data: {e}")
         finally:
             conn.close()
+
+def export_conversation(user_id):
+    conn = connect_to_db()
+    return
 
 # Main function
 if __name__ == "__main__":

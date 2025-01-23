@@ -1,5 +1,8 @@
 from telegram import Update
-from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
+from telegram.constants import ChatAction
+from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters,Updater, CommandHandler,CallbackContext
+
+#from src.conf.logger import get_logger
 from .llm import fetch_response
 from dotenv import load_dotenv
 from .speech_to_text import fetch_transcription
@@ -8,6 +11,7 @@ from conf.logger import get_logger
 import os
 import asyncio
 from integration.db import save_message_log
+import re
 
 
 logger = get_logger(__name__)  # Set up the logger
@@ -19,7 +23,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     logger.info("Bot received a /start command")
-    await update.message.reply_text("Salutare! Eu sunt PsychoBot! Terapeutul și sfătuitorul tău! Cu ce te pot ajuta azi?")
+    await update.message.reply_text("Salutare! Eu sunt PsychoBot, bossule! Terapeutul și sfătuitorul tău! Zi-mi fatioare ce te framanta.")
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     try:
@@ -28,19 +32,31 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
         user_id = user.id
         user_name = f"{user.first_name or ''} {user.last_name or ''}".strip()
         logger.info(f"User {user_name} with id {user_id} sent the message: {user_message}")
-        await update.message.reply_text("Mă gândesc...")
+        #await update.message.reply_text("Mă gândesc...")
+        await context.bot.send_chat_action(chat_id=update.effective_chat.id, action=ChatAction.TYPING)
 
         response = await fetch_response(user_message)
         logger.debug(f"Generated response: {response}")
-        await update.message.reply_text(response)
+
+        # Escape special characters except for formatting symbols (* and _)
+        escaped_response = re.sub(r"([_~`>+\-=|{}.!()\[\]])", r"\\\1", response)
+        await update.message.reply_text(escaped_response,parse_mode="MarkdownV2")
 
         # Save the log data to the database
         save_message_log(user_id, user_name, user_message, response)
 
     except Exception as e:
         logger.error(f"Error handling message: {e}", exc_info=True)
-        await update.message.reply_text(f"Întâmpin eroarea : {e}")
+        await update.message.reply_text(f"Error in handle_text : {e}")
 
+
+import re
+
+def escape_markdown_v2(text):
+    """
+    Escape special characters for MarkdownV2.
+    """
+    return re.sub(r'([_*\[\]()~`>#+\-=|{}.!])', r'\\\1', text)
 
 async def handle_voice(update: Update, context: ContextTypes.DEFAULT_TYPE):
     try:
@@ -51,12 +67,20 @@ async def handle_voice(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await file.download_to_drive(audio_file)
         logger.info(f"Downloaded audio file to {audio_file}")
 
-        await update.message.reply_text("Mă gândesc...")
+        await context.bot.send_chat_action(chat_id=update.effective_chat.id, action=ChatAction.TYPING)
+
         transcription = await fetch_transcription(audio_file)
         response = await fetch_response(transcription or "Voice not understood.")
         logger.debug(f"Transcription: {transcription}, Response: {response}")
 
-        await update.message.reply_text(f"You said: {str(transcription)}\n{str(response)}")
+        # Escape transcription and response for MarkdownV2
+        transcription_escaped = escape_markdown_v2(str(transcription))
+        response_escaped = escape_markdown_v2(str(response))
+
+        await update.message.reply_text(
+            f"You said: {transcription_escaped}\n{response_escaped}",
+            parse_mode="MarkdownV2"
+        )
 
         # Save the log data to the database, including voice transcription
         save_message_log(update.effective_user.id, update.effective_user.first_name,
@@ -64,7 +88,7 @@ async def handle_voice(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     except Exception as e:
         logger.error(f"Error handling voice message: {e}", exc_info=True)
-        await update.message.reply_text(f"Întâmpin eroarea : {e}")
+        await update.message.reply_text(f"Error in handle voice : {e}")
 
 async def error_handler(update, context):
     if isinstance(context.error, Conflict):

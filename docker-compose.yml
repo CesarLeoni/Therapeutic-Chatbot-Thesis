@@ -3,30 +3,30 @@ services:
     image: postgres:latest
     container_name: chatbot-db
     environment:
-      POSTGRES_DB: MyChatbotDB1.0
+      POSTGRES_DB: postgres
       POSTGRES_USER: cesar
-      POSTGRES_PASSWORD: ParolaBDLicenta2025  # Set the password for the superuser
+      POSTGRES_PASSWORD: ParolaBDLicenta2025
     ports:
-      - "5432:5432"  # Expose PostgreSQL port to your host
+      - "5432:5432"
     volumes:
       - db_data:/var/lib/postgresql/data
     networks:
       - mynetwork
 
   app:
-    build:        # Assuming your Python app has a Dockerfile
+    build:
       context: .
       dockerfile: Dockerfile
     container_name: chatbot-app
     environment:
-      DATABASE_URL: postgres://cesar:ParolaBDLicenta2025@db:5432/MyChatbotDB1.0
+      DATABASE_URL: postgres://cesar:ParolaBDLicenta2025@db:5432/MyChatbotDB
     depends_on:
       - db
     ports:
       - "5000:5000"
     volumes:
-      - ./src:/app
-   # command: python /app/main.py
+      - ./src:/app                # Map the src directory to the container
+      - ./app.log:/app/app.log     # Map app.log from your host to the container
     networks:
       - mynetwork
 
