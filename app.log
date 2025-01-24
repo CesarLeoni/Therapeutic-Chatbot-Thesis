@@ -1839,3 +1839,20 @@ What specific aspects of life are you interested in discussing? Personal growth,
 2025-01-23 23:12:43,924 - integration.llm - INFO - Fetching response for prompt: Orice
 2025-01-23 23:12:48,578 - integration.llm - DEBUG - Received response: Se pare că ai început un gând, dar nu l-ai terminat. Despre ce ai dori să discutăm? Poate ai nevoie de sfaturi, informații sau pur și simplu vrei să împărtășești ceva. Sunt aici să te ascult!
 2025-01-23 23:12:48,580 - integration.telegram - DEBUG - Generated response: Se pare că ai început un gând, dar nu l-ai terminat. Despre ce ai dori să discutăm? Poate ai nevoie de sfaturi, informații sau pur și simplu vrei să împărtășești ceva. Sunt aici să te ascult!
+2025-01-23 23:39:06,460 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: 💫
+2025-01-23 23:39:06,723 - integration.llm - INFO - Fetching response for prompt: 💫
+2025-01-23 23:39:08,089 - integration.llm - DEBUG - Received response: Bun venit! Cum te pot ajuta astăzi? Dacă ai întrebări sau vrei să discuți despre ceva anume, nu ezita să-mi spui.
+2025-01-23 23:39:08,091 - integration.telegram - DEBUG - Generated response: Bun venit! Cum te pot ajuta astăzi? Dacă ai întrebări sau vrei să discuți despre ceva anume, nu ezita să-mi spui.
+2025-01-24 20:30:21,385 - __main__ - INFO - Starting main application
+2025-01-24 20:30:21,390 - integration.telegram - INFO - Initializing the bot
+2025-01-24 20:30:21,527 - integration.telegram - INFO - Bot is running...
+2025-01-24 20:37:33,578 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Ce faci fra?
+2025-01-24 20:37:33,816 - integration.llm - INFO - Fetching response for prompt: Ce faci fra?
+2025-01-24 20:37:35,431 - integration.llm - DEBUG - Received response: Salut! Sunt aici să te ajut. Ce pot face pentru tine?
+2025-01-24 20:37:35,431 - integration.telegram - DEBUG - Generated response: Salut! Sunt aici să te ajut. Ce pot face pentru tine?
+2025-01-24 20:37:59,751 - integration.telegram - INFO - Downloaded audio file to voice.ogg
+2025-01-24 20:37:59,807 - integration.speech_to_text - INFO - Starting transcription for voice.ogg
+2025-01-24 20:38:08,547 - integration.speech_to_text - DEBUG - Transcription result:  Encelete limba romana.
+2025-01-24 20:38:08,548 - integration.llm - INFO - Fetching response for prompt:  Encelete limba romana.
+2025-01-24 20:38:09,088 - integration.llm - DEBUG - Received response: Desigur! Cu ce te pot ajuta în limba română?
+2025-01-24 20:38:09,090 - integration.telegram - DEBUG - Transcription:  Encelete limba romana., Response: Desigur! Cu ce te pot ajuta în limba română?
