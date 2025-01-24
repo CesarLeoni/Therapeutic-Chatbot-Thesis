@@ -10,3 +10,5 @@ Conversational Inteligent agent for psychological support based on emotion recog
 ## 29.11.2024 10:43 - Chatbot able to have multiple conversations at once
 
 ## 06.12.2024 01:49 - turbo model for whisper best suited for multilingual processing!
+
+## 24.01.2024 22:40 - Database and app running in docker, more exciting stuff to be done
