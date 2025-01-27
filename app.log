@@ -1856,3 +1856,45 @@ What specific aspects of life are you interested in discussing? Personal growth,
 2025-01-24 20:38:08,548 - integration.llm - INFO - Fetching response for prompt:  Encelete limba romana.
 2025-01-24 20:38:09,088 - integration.llm - DEBUG - Received response: Desigur! Cu ce te pot ajuta în limba română?
 2025-01-24 20:38:09,090 - integration.telegram - DEBUG - Transcription:  Encelete limba romana., Response: Desigur! Cu ce te pot ajuta în limba română?
+2025-01-27 15:59:29,713 - __main__ - INFO - Starting main application
+2025-01-27 15:59:29,715 - integration.telegram - INFO - Initializing the bot
+2025-01-27 15:59:29,789 - integration.telegram - INFO - Bot is running...
+2025-01-27 16:02:47,917 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Salut
+2025-01-27 16:02:48,243 - integration.llm - INFO - Fetching response for prompt: Salut
+2025-01-27 16:02:50,035 - integration.llm - DEBUG - Received response: Salut! Cum te pot ajuta astăzi?
+2025-01-27 16:02:50,040 - integration.telegram - DEBUG - Generated response: Salut! Cum te pot ajuta astăzi?
+2025-01-27 16:02:55,408 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Cum te numesti?
+2025-01-27 16:02:55,686 - integration.llm - INFO - Fetching response for prompt: Cum te numesti?
+2025-01-27 16:02:56,955 - integration.llm - DEBUG - Received response: Sunt un asistent virtual și nu am un nume propriu, dar poți să-mi spui cum vrei. Cum te pot ajuta astăzi?
+2025-01-27 16:02:56,957 - integration.telegram - DEBUG - Generated response: Sunt un asistent virtual și nu am un nume propriu, dar poți să-mi spui cum vrei. Cum te pot ajuta astăzi?
+2025-01-27 16:03:04,292 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Sunt trist
+2025-01-27 16:03:04,623 - integration.llm - INFO - Fetching response for prompt: Sunt trist
+2025-01-27 16:03:05,787 - integration.llm - DEBUG - Received response: Îmi pare rău să aud că te simți trist. Vrei să împărtășești ce te deranjează sau să discutăm despre acest sentiment? Este important să nu te simți singur în momentele dificile.
+2025-01-27 16:03:05,787 - integration.telegram - DEBUG - Generated response: Îmi pare rău să aud că te simți trist. Vrei să împărtășești ce te deranjează sau să discutăm despre acest sentiment? Este important să nu te simți singur în momentele dificile.
+2025-01-27 16:22:07,845 - __main__ - INFO - Starting main application
+2025-01-27 16:22:07,849 - integration.telegram - INFO - Initializing the bot
+2025-01-27 16:22:07,936 - integration.telegram - INFO - Bot is running...
+2025-01-27 16:22:08,432 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Deci cum te cheama?
+2025-01-27 16:22:08,506 - integration.llm - INFO - Fetching response for prompt: Deci cum te cheama?
+2025-01-27 16:22:09,576 - integration.llm - DEBUG - Received response: Mă cheamă ALMA. Cum te pot ajuta azi?
+2025-01-27 16:22:09,577 - integration.telegram - DEBUG - Generated response: Mă cheamă ALMA. Cum te pot ajuta azi?
+2025-01-27 16:22:23,903 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Ce inseamna ALMA?
+2025-01-27 16:22:24,096 - integration.llm - INFO - Fetching response for prompt: Ce inseamna ALMA?
+2025-01-27 16:22:26,666 - integration.llm - DEBUG - Received response: Numele „ALMA” are mai multe semnificații, în funcție de context:
+
+1. **Semnificație în limba spaniolă**: „Alma” înseamnă „suflet”. Este adesea folosit pentru a descrie esența unei persoane sau a emoțiilor.
+
+2. **Origine în alte culturi**: În unele culturi, „Alma” poate însemna „îngrijire” sau „compasiune”.
+
+3. **Nume propriu**: Poate fi folosit ca nume de fată în multe culturi.
+
+Dacă te referi la un alt context specific, te rog să-mi spui!
+2025-01-27 16:22:26,666 - integration.telegram - DEBUG - Generated response: Numele „ALMA” are mai multe semnificații, în funcție de context:
+
+1. **Semnificație în limba spaniolă**: „Alma” înseamnă „suflet”. Este adesea folosit pentru a descrie esența unei persoane sau a emoțiilor.
+
+2. **Origine în alte culturi**: În unele culturi, „Alma” poate însemna „îngrijire” sau „compasiune”.
+
+3. **Nume propriu**: Poate fi folosit ca nume de fată în multe culturi.
+
+Dacă te referi la un alt context specific, te rog să-mi spui!

@@ -14,7 +14,7 @@ async def fetch_response(prompt: str) -> str:
         logger.info(f"Fetching response for prompt: {prompt}")
         chat_completion = client.chat.completions.create(
             messages=[
-                {"role": "system", "content": "Ești un psiholog multilingv..."},
+                {"role": "system", "content": "Ești un psiholog multilingv. Te cheama ALMA si esti aici sa ajuti oamenii care iti scriu."},
                 {"role": "user", "content": prompt},
             ],
             model="gpt-4o-mini-2024-07-18",
