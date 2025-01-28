@@ -1921,3 +1921,509 @@ Dacă te referi la un alt context specific, te rog să-mi spui!
 2025-01-28 18:35:21,056 - integration.llm - INFO - Fetching response for prompt: chiar e grea viata
 2025-01-28 18:35:23,579 - integration.llm - DEBUG - Received response: Înțeleg că te simți copleșit de greutățile vieții. Este normal să avem momente dificile, iar uneori pot părea insurmontabile. Poate ar fi util să vorbești despre ceea ce te îngrijorează sau te face să te simți astfel. Este important să găsim modalități de a face față provocărilor și să ne concentrăm pe lucrurile care ne aduc bucurie și împlinire. Cum te simți în legătură cu ceea ce te frământă?
 2025-01-28 18:35:23,580 - integration.telegram - DEBUG - Generated response: Înțeleg că te simți copleșit de greutățile vieții. Este normal să avem momente dificile, iar uneori pot părea insurmontabile. Poate ar fi util să vorbești despre ceea ce te îngrijorează sau te face să te simți astfel. Este important să găsim modalități de a face față provocărilor și să ne concentrăm pe lucrurile care ne aduc bucurie și împlinire. Cum te simți în legătură cu ceea ce te frământă?
+2025-01-28 18:46:01,094 - __main__ - INFO - Starting main application
+2025-01-28 18:46:01,099 - integration.telegram - INFO - Initializing the bot
+2025-01-28 18:46:01,230 - integration.telegram - INFO - Bot is running...
+2025-01-28 18:46:01,730 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: oare acest mesaj va afisa un log?
+2025-01-28 18:46:01,807 - integration.llm - INFO - Fetching response for prompt: oare acest mesaj va afisa un log?
+2025-01-28 18:46:02,963 - integration.llm - DEBUG - Received response: Nu, acest mesaj nu va afișa un log. Dacă ai nevoie de ajutor sau ai întrebări, sunt aici să te ascult!
+2025-01-28 18:46:02,963 - integration.telegram - DEBUG - Generated response: Nu, acest mesaj nu va afișa un log. Dacă ai nevoie de ajutor sau ai întrebări, sunt aici să te ascult!
+2025-01-28 18:48:43,702 - __main__ - INFO - Starting main application
+2025-01-28 18:48:43,703 - integration.telegram - INFO - Initializing the bot
+2025-01-28 18:48:43,798 - integration.telegram - INFO - Bot is running...
+2025-01-28 18:48:44,196 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: perfect, mersi. a afisat
+2025-01-28 18:48:44,200 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: hei
+2025-01-28 18:48:44,205 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: \start
+2025-01-28 18:48:44,208 - integration.telegram - INFO - Bot received a /start command
+2025-01-28 18:48:44,211 - integration.telegram - INFO - Bot received a /start command
+2025-01-28 18:48:44,417 - integration.llm - INFO - Fetching response for prompt: perfect, mersi. a afisat
+2025-01-28 18:48:45,465 - integration.llm - DEBUG - Received response: Cu plăcere! Dacă ai nevoie de ajutor sau vrei să discutăm despre ceva anume, nu ezita să-mi spui. Sunt aici pentru tine!
+2025-01-28 18:48:45,466 - integration.telegram - DEBUG - Generated response: Cu plăcere! Dacă ai nevoie de ajutor sau vrei să discutăm despre ceva anume, nu ezita să-mi spui. Sunt aici pentru tine!
+2025-01-28 18:48:45,473 - integration.llm - INFO - Fetching response for prompt: hei
+2025-01-28 18:48:46,128 - integration.llm - DEBUG - Received response: Bună! Cu ce te pot ajuta astăzi?
+2025-01-28 18:48:46,129 - integration.telegram - DEBUG - Generated response: Bună! Cu ce te pot ajuta astăzi?
+2025-01-28 18:48:46,134 - integration.llm - INFO - Fetching response for prompt: \start
+2025-01-28 18:48:47,508 - integration.llm - DEBUG - Received response: Bună! Cum te pot ajuta astăzi?
+2025-01-28 18:48:47,509 - integration.telegram - DEBUG - Generated response: Bună! Cum te pot ajuta astăzi?
+2025-01-28 18:49:05,828 - integration.telegram - INFO - Bot received a /start command
+2025-01-28 18:49:09,110 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: top
+2025-01-28 18:49:09,160 - integration.llm - INFO - Fetching response for prompt: top
+2025-01-28 18:49:10,547 - integration.llm - DEBUG - Received response: Bună! Cum te pot ajuta astăzi? Dacă ai întrebări sau dacă ai nevoie de sprijin în legătură cu ceva, sunt aici pentru tine.
+2025-01-28 18:49:10,548 - integration.telegram - DEBUG - Generated response: Bună! Cum te pot ajuta astăzi? Dacă ai întrebări sau dacă ai nevoie de sprijin în legătură cu ceva, sunt aici pentru tine.
+2025-01-28 19:08:20,477 - integration.telegram - INFO - Downloaded audio file to voice.ogg
+2025-01-28 19:08:20,645 - integration.speech_to_text - INFO - Starting transcription for voice.ogg
+2025-01-28 19:08:26,868 - integration.speech_to_text - DEBUG - Transcription result:  Iazi pe scur despre capitala bucurești, ațării România.
+2025-01-28 19:08:26,869 - integration.llm - INFO - Fetching response for prompt:  Iazi pe scur despre capitala bucurești, ațării România.
+2025-01-28 19:08:31,407 - integration.llm - DEBUG - Received response: București este capitala României și cel mai mare oraș al țării. Situat în partea de sud-est a României, pe malul râului Dâmbovița, Bucureștiul este cunoscut pentru arhitectura sa eclectică, care îmbină stiluri diverse, de la neoclasic la modern. 
+
+Orașul are o istorie bogată, datând din secolul al XV-lea, când a devenit reședința domnitorilor țării. Astăzi, Bucureștiul este un important centru cultural, economic și politic, găzduind instituții guvernamentale, universități și teatre. 
+
+Printre atracțiile celebre ale orașului se numără Palatul Parlamentului, cel mai mare clădirea administrativă din lume, bulevardul Victoriei, dar și parcurile și grădinile care oferă un refugiu verde în agitația urbană. De asemenea, viața de noapte din București este vibrantă, cu numeroase baruri, cluburi și restaurante.
+2025-01-28 19:08:31,408 - integration.telegram - DEBUG - Transcription:  Iazi pe scur despre capitala bucurești, ațării România., Response: București este capitala României și cel mai mare oraș al țării. Situat în partea de sud-est a României, pe malul râului Dâmbovița, Bucureștiul este cunoscut pentru arhitectura sa eclectică, care îmbină stiluri diverse, de la neoclasic la modern. 
+
+Orașul are o istorie bogată, datând din secolul al XV-lea, când a devenit reședința domnitorilor țării. Astăzi, Bucureștiul este un important centru cultural, economic și politic, găzduind instituții guvernamentale, universități și teatre. 
+
+Printre atracțiile celebre ale orașului se numără Palatul Parlamentului, cel mai mare clădirea administrativă din lume, bulevardul Victoriei, dar și parcurile și grădinile care oferă un refugiu verde în agitația urbană. De asemenea, viața de noapte din București este vibrantă, cu numeroase baruri, cluburi și restaurante.
+2025-01-28 19:08:49,437 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Mersi
+2025-01-28 19:08:49,583 - integration.llm - INFO - Fetching response for prompt: Mersi
+2025-01-28 19:08:57,726 - integration.llm - DEBUG - Received response: Cu plăcere! Cu ce te pot ajuta astăzi?
+2025-01-28 19:08:57,727 - integration.telegram - DEBUG - Generated response: Cu plăcere! Cu ce te pot ajuta astăzi?
+2025-01-28 19:16:39,434 - integration.telegram - INFO - Downloaded audio file to voice.ogg
+2025-01-28 19:16:39,579 - integration.speech_to_text - INFO - Starting transcription for voice.ogg
+2025-01-28 19:16:41,432 - integration.speech_to_text - DEBUG - Transcription result:  Hallo, mein Freund!
+2025-01-28 19:16:41,433 - integration.llm - INFO - Fetching response for prompt:  Hallo, mein Freund!
+2025-01-28 19:16:42,394 - integration.llm - DEBUG - Received response: Hallo! Wie kann ich dir helfen?
+2025-01-28 19:16:42,394 - integration.telegram - DEBUG - Transcription:  Hallo, mein Freund!, Response: Hallo! Wie kann ich dir helfen?
+2025-01-28 20:48:45,870 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: ja
+2025-01-28 20:48:46,247 - integration.llm - INFO - Fetching response for prompt: ja
+2025-01-28 20:50:17,644 - integration.llm - DEBUG - Received response: Bună! Cum te pot ajuta astăzi?
+2025-01-28 20:50:17,645 - integration.telegram - DEBUG - Generated response: Bună! Cum te pot ajuta astăzi?
+2025-01-28 20:50:17,822 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: ja
+2025-01-28 20:50:18,070 - integration.llm - INFO - Fetching response for prompt: ja
+2025-01-28 20:50:18,675 - integration.llm - DEBUG - Received response: Olá! Como posso ajudá-lo hoje?
+2025-01-28 20:50:18,676 - integration.telegram - DEBUG - Generated response: Olá! Como posso ajudá-lo hoje?
+2025-01-28 20:52:03,599 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: yes
+2025-01-28 20:52:03,826 - integration.llm - INFO - Fetching response for prompt: yes
+2025-01-28 20:52:04,640 - integration.llm - DEBUG - Received response: Hello! How can I assist you today?
+2025-01-28 20:52:04,641 - integration.telegram - DEBUG - Generated response: Hello! How can I assist you today?
+2025-01-28 20:56:27,483 - __main__ - INFO - Starting main application
+2025-01-28 20:56:27,485 - integration.telegram - INFO - Initializing the bot
+2025-01-28 20:56:27,567 - integration.telegram - INFO - Bot is running...
+2025-01-28 20:57:53,737 - integration.telegram - INFO - Downloaded audio file to voice.ogg
+2025-01-28 20:57:53,853 - integration.speech_to_text - INFO - Starting transcription for voice.ogg
+2025-01-28 20:57:57,533 - integration.speech_to_text - DEBUG - Transcription result:  ci faccio frate
+2025-01-28 20:57:57,534 - integration.llm - INFO - Fetching response for prompt: (' ci faccio frate', 'it')
+2025-01-28 20:57:58,021 - integration.llm - ERROR - Error fetching response: Error code: 400 - {'error': {'message': "Invalid type for 'messages[1].content[0]': expected an object, but got a string instead.", 'type': 'invalid_request_error', 'param': 'messages[1].content[0]', 'code': 'invalid_type'}}
+Traceback (most recent call last):
+  File "/app/integration/llm.py", line 15, in fetch_response
+    chat_completion = client.chat.completions.create(
+  File "/usr/local/lib/python3.9/site-packages/openai/_utils/_utils.py", line 275, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/openai/resources/chat/completions.py", line 829, in create
+    return self._post(
+  File "/usr/local/lib/python3.9/site-packages/openai/_base_client.py", line 1278, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/usr/local/lib/python3.9/site-packages/openai/_base_client.py", line 955, in request
+    return self._request(
+  File "/usr/local/lib/python3.9/site-packages/openai/_base_client.py", line 1059, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "Invalid type for 'messages[1].content[0]': expected an object, but got a string instead.", 'type': 'invalid_request_error', 'param': 'messages[1].content[0]', 'code': 'invalid_type'}}
+2025-01-28 20:57:58,058 - integration.telegram - ERROR - Error handling voice message: too many values to unpack (expected 2)
+Traceback (most recent call last):
+  File "/app/integration/telegram.py", line 76, in handle_voice
+    response,language = await fetch_response(transcription or "Voice not understood.")
+ValueError: too many values to unpack (expected 2)
+2025-01-28 21:01:00,282 - __main__ - INFO - Starting main application
+2025-01-28 21:01:00,283 - integration.telegram - INFO - Initializing the bot
+2025-01-28 21:01:00,329 - integration.telegram - INFO - Bot is running...
+2025-01-28 21:01:07,906 - integration.telegram - INFO - Downloaded audio file to voice.ogg
+2025-01-28 21:01:08,073 - integration.speech_to_text - INFO - Starting transcription for voice.ogg
+2025-01-28 21:01:10,401 - integration.speech_to_text - DEBUG - Transcription result:  ci faccio frate
+2025-01-28 21:01:10,402 - integration.llm - INFO - Fetching response for prompt: (' ci faccio frate', 'it')
+2025-01-28 21:01:10,706 - integration.llm - ERROR - Error fetching response: Error code: 400 - {'error': {'message': "Invalid type for 'messages[1].content[0]': expected an object, but got a string instead.", 'type': 'invalid_request_error', 'param': 'messages[1].content[0]', 'code': 'invalid_type'}}
+Traceback (most recent call last):
+  File "/app/integration/llm.py", line 15, in fetch_response
+    chat_completion = client.chat.completions.create(
+  File "/usr/local/lib/python3.9/site-packages/openai/_utils/_utils.py", line 275, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/openai/resources/chat/completions.py", line 829, in create
+    return self._post(
+  File "/usr/local/lib/python3.9/site-packages/openai/_base_client.py", line 1278, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/usr/local/lib/python3.9/site-packages/openai/_base_client.py", line 955, in request
+    return self._request(
+  File "/usr/local/lib/python3.9/site-packages/openai/_base_client.py", line 1059, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "Invalid type for 'messages[1].content[0]': expected an object, but got a string instead.", 'type': 'invalid_request_error', 'param': 'messages[1].content[0]', 'code': 'invalid_type'}}
+2025-01-28 21:01:10,720 - integration.telegram - ERROR - Error handling voice message: too many values to unpack (expected 2)
+Traceback (most recent call last):
+  File "/app/integration/telegram.py", line 76, in handle_voice
+    response, language = await fetch_response(transcription or "Voice not understood.")
+ValueError: too many values to unpack (expected 2)
+2025-01-28 21:05:56,010 - __main__ - INFO - Starting main application
+2025-01-28 21:05:56,010 - integration.telegram - INFO - Initializing the bot
+2025-01-28 21:05:56,054 - integration.telegram - INFO - Bot is running...
+2025-01-28 21:06:10,302 - integration.telegram - INFO - Downloaded audio file to voice.ogg
+2025-01-28 21:06:10,352 - integration.speech_to_text - INFO - Starting transcription for voice.ogg
+2025-01-28 21:06:12,605 - integration.speech_to_text - DEBUG - Transcription result:  ci faccio frate
+2025-01-28 21:06:12,606 - integration.llm - INFO - Fetching response for prompt:  ci faccio frate
+2025-01-28 21:06:14,177 - integration.llm - DEBUG - Received response: Ciao! Posso aiutarti in qualche modo? Se hai bisogno di parlare di qualcosa o hai delle domande, sentiti libero di condividerlo.
+2025-01-28 21:06:14,178 - integration.telegram - DEBUG - Transcription from it:  ci faccio frate, Response: Ciao! Posso aiutarti in qualche modo? Se hai bisogno di parlare di qualcosa o hai delle domande, sentiti libero di condividerlo.
+2025-01-28 21:06:14,221 - integration.telegram - ERROR - Error handling voice message: Can't parse entities: character '(' is reserved and must be escaped with the preceding '\'
+Traceback (most recent call last):
+  File "/app/integration/telegram.py", line 83, in handle_voice
+    await update.message.reply_text(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_message.py", line 1006, in reply_text
+    return await self.get_bot().send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/_extbot.py", line 2596, in send_message
+    return await super().send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 334, in decorator
+    result = await func(*args, **kwargs)  # skipcq: PYL-E1102
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 767, in send_message
+    return await self._send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/_extbot.py", line 488, in _send_message
+    result = await super()._send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 515, in _send_message
+    result = await self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 422, in _post
+    return await self._do_post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/_extbot.py", line 306, in _do_post
+    return await super()._do_post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 453, in _do_post
+    return await request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/request/_baserequest.py", line 165, in post
+    result = await self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/request/_baserequest.py", line 328, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '(' is reserved and must be escaped with the preceding '\'
+2025-01-28 21:11:20,517 - __main__ - INFO - Starting main application
+2025-01-28 21:11:20,518 - integration.telegram - INFO - Initializing the bot
+2025-01-28 21:11:20,575 - integration.telegram - INFO - Bot is running...
+2025-01-28 21:11:56,220 - integration.telegram - INFO - Downloaded audio file to voice.ogg
+2025-01-28 21:11:56,273 - integration.speech_to_text - INFO - Starting transcription for voice.ogg
+2025-01-28 21:11:58,600 - integration.speech_to_text - DEBUG - Transcription result:  ci faccio frate
+2025-01-28 21:11:58,600 - integration.llm - INFO - Fetching response for prompt:  ci faccio frate
+2025-01-28 21:11:59,662 - integration.llm - DEBUG - Received response: Ciao! Se hai bisogno di parlare di qualcosa che ti preoccupa o ti fa sentire confuso, sono qui per aiutarti. Puoi dirmi di più su ciò che stai sentendo?
+2025-01-28 21:11:59,663 - integration.telegram - DEBUG - Transcription from it:  ci faccio frate, Response: Ciao! Se hai bisogno di parlare di qualcosa che ti preoccupa o ti fa sentire confuso, sono qui per aiutarti. Puoi dirmi di più su ciò che stai sentendo?
+2025-01-28 21:11:59,664 - integration.telegram - ERROR - Error handling voice message: name 'transcription_escaped' is not defined
+Traceback (most recent call last):
+  File "/app/integration/telegram.py", line 90, in handle_voice
+    f"You said (in {language}): {transcription_escaped}\n{response_escaped}",
+NameError: name 'transcription_escaped' is not defined
+2025-01-28 21:13:07,463 - __main__ - INFO - Starting main application
+2025-01-28 21:13:07,464 - integration.telegram - INFO - Initializing the bot
+2025-01-28 21:13:07,509 - integration.telegram - INFO - Bot is running...
+2025-01-28 21:13:07,977 - integration.telegram - INFO - Downloaded audio file to voice.ogg
+2025-01-28 21:13:08,043 - integration.speech_to_text - INFO - Starting transcription for voice.ogg
+2025-01-28 21:13:10,393 - integration.speech_to_text - DEBUG - Transcription result:  ci faccio frate
+2025-01-28 21:13:10,393 - integration.llm - INFO - Fetching response for prompt:  ci faccio frate
+2025-01-28 21:13:11,495 - integration.llm - DEBUG - Received response: Ciao! Sembra che tu stia cercando aiuto o supporto. Puoi spiegarmi meglio cosa ti preoccupa o di cosa hai bisogno? Sono qui per ascoltarti!
+2025-01-28 21:13:11,496 - integration.telegram - DEBUG - Transcription from it:  ci faccio frate, Response: Ciao! Sembra che tu stia cercando aiuto o supporto. Puoi spiegarmi meglio cosa ti preoccupa o di cosa hai bisogno? Sono qui per ascoltarti!
+2025-01-28 21:13:11,538 - integration.telegram - ERROR - Error handling voice message: Can't parse entities: character '(' is reserved and must be escaped with the preceding '\'
+Traceback (most recent call last):
+  File "/app/integration/telegram.py", line 89, in handle_voice
+    await update.message.reply_text(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_message.py", line 1006, in reply_text
+    return await self.get_bot().send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/_extbot.py", line 2596, in send_message
+    return await super().send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 334, in decorator
+    result = await func(*args, **kwargs)  # skipcq: PYL-E1102
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 767, in send_message
+    return await self._send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/_extbot.py", line 488, in _send_message
+    result = await super()._send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 515, in _send_message
+    result = await self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 422, in _post
+    return await self._do_post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/_extbot.py", line 306, in _do_post
+    return await super()._do_post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 453, in _do_post
+    return await request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/request/_baserequest.py", line 165, in post
+    result = await self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/request/_baserequest.py", line 328, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '(' is reserved and must be escaped with the preceding '\'
+2025-01-28 21:13:56,614 - integration.telegram - INFO - Downloaded audio file to voice.ogg
+2025-01-28 21:13:56,739 - integration.speech_to_text - INFO - Starting transcription for voice.ogg
+2025-01-28 21:13:59,685 - integration.speech_to_text - DEBUG - Transcription result:  ¡Mueta!
+2025-01-28 21:13:59,686 - integration.llm - INFO - Fetching response for prompt:  ¡Mueta!
+2025-01-28 21:14:00,979 - integration.llm - DEBUG - Received response: ¡Hola! Parece que tienes algo en mente. Estoy aquí para escucharte y ayudarte. ¿De qué te gustaría hablar?
+2025-01-28 21:14:00,980 - integration.telegram - DEBUG - Transcription from es:  ¡Mueta!, Response: ¡Hola! Parece que tienes algo en mente. Estoy aquí para escucharte y ayudarte. ¿De qué te gustaría hablar?
+2025-01-28 21:14:01,022 - integration.telegram - ERROR - Error handling voice message: Can't parse entities: character '(' is reserved and must be escaped with the preceding '\'
+Traceback (most recent call last):
+  File "/app/integration/telegram.py", line 89, in handle_voice
+    await update.message.reply_text(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_message.py", line 1006, in reply_text
+    return await self.get_bot().send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/_extbot.py", line 2596, in send_message
+    return await super().send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 334, in decorator
+    result = await func(*args, **kwargs)  # skipcq: PYL-E1102
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 767, in send_message
+    return await self._send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/_extbot.py", line 488, in _send_message
+    result = await super()._send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 515, in _send_message
+    result = await self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 422, in _post
+    return await self._do_post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/_extbot.py", line 306, in _do_post
+    return await super()._do_post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 453, in _do_post
+    return await request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/request/_baserequest.py", line 165, in post
+    result = await self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/request/_baserequest.py", line 328, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '(' is reserved and must be escaped with the preceding '\'
+2025-01-28 21:15:40,881 - __main__ - INFO - Starting main application
+2025-01-28 21:15:40,883 - integration.telegram - INFO - Initializing the bot
+2025-01-28 21:15:40,947 - integration.telegram - INFO - Bot is running...
+2025-01-28 21:15:55,360 - integration.telegram - INFO - Downloaded audio file to voice.ogg
+2025-01-28 21:15:55,409 - integration.speech_to_text - INFO - Starting transcription for voice.ogg
+2025-01-28 21:15:57,773 - integration.speech_to_text - DEBUG - Transcription result:  ci faccio frate
+2025-01-28 21:15:57,774 - integration.llm - INFO - Fetching response for prompt:  ci faccio frate
+2025-01-28 21:15:59,667 - integration.llm - DEBUG - Received response: Ciao! Sembra che tu stia vivendo un momento difficile. Posso aiutarti a esplorare i tuoi sentimenti o le tue preoccupazioni. Vuoi parlarmi di cosa sta succedendo?
+2025-01-28 21:15:59,667 - integration.telegram - DEBUG - Transcription from it:  ci faccio frate, Response: Ciao! Sembra che tu stia vivendo un momento difficile. Posso aiutarti a esplorare i tuoi sentimenti o le tue preoccupazioni. Vuoi parlarmi di cosa sta succedendo?
+2025-01-28 21:15:59,716 - integration.telegram - ERROR - Error handling voice message: Can't parse entities: character '(' is reserved and must be escaped with the preceding '\'
+Traceback (most recent call last):
+  File "/app/integration/telegram.py", line 94, in handle_voice
+    await update.message.reply_text(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_message.py", line 1006, in reply_text
+    return await self.get_bot().send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/_extbot.py", line 2596, in send_message
+    return await super().send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 334, in decorator
+    result = await func(*args, **kwargs)  # skipcq: PYL-E1102
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 767, in send_message
+    return await self._send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/_extbot.py", line 488, in _send_message
+    result = await super()._send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 515, in _send_message
+    result = await self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 422, in _post
+    return await self._do_post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/_extbot.py", line 306, in _do_post
+    return await super()._do_post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 453, in _do_post
+    return await request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/request/_baserequest.py", line 165, in post
+    result = await self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/request/_baserequest.py", line 328, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '(' is reserved and must be escaped with the preceding '\'
+2025-01-28 21:21:24,070 - __main__ - INFO - Starting main application
+2025-01-28 21:21:24,071 - integration.telegram - INFO - Initializing the bot
+2025-01-28 21:21:24,130 - integration.telegram - INFO - Bot is running...
+2025-01-28 21:21:31,276 - integration.telegram - INFO - Downloaded audio file to voice.ogg
+2025-01-28 21:21:31,356 - integration.speech_to_text - INFO - Starting transcription for voice.ogg
+2025-01-28 21:21:33,727 - integration.speech_to_text - DEBUG - Transcription result: 
+2025-01-28 21:21:33,728 - integration.llm - INFO - Fetching response for prompt: Voice not understood.
+2025-01-28 21:21:34,632 - integration.llm - DEBUG - Received response: I'm here to help you! It seems there might be a misunderstanding or issue. Could you please provide more details about what you need assistance with?
+2025-01-28 21:21:34,633 - integration.telegram - DEBUG - Transcription from en: , Response: I'm here to help you! It seems there might be a misunderstanding or issue. Could you please provide more details about what you need assistance with?
+2025-01-28 21:21:34,678 - integration.telegram - ERROR - Error handling voice message: Can't parse entities: character '(' is reserved and must be escaped with the preceding '\'
+Traceback (most recent call last):
+  File "/app/integration/telegram.py", line 94, in handle_voice
+    await update.message.reply_text(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_message.py", line 1006, in reply_text
+    return await self.get_bot().send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/_extbot.py", line 2596, in send_message
+    return await super().send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 334, in decorator
+    result = await func(*args, **kwargs)  # skipcq: PYL-E1102
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 767, in send_message
+    return await self._send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/_extbot.py", line 488, in _send_message
+    result = await super()._send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 515, in _send_message
+    result = await self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 422, in _post
+    return await self._do_post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/_extbot.py", line 306, in _do_post
+    return await super()._do_post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 453, in _do_post
+    return await request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/request/_baserequest.py", line 165, in post
+    result = await self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/request/_baserequest.py", line 328, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '(' is reserved and must be escaped with the preceding '\'
+2025-01-28 21:25:05,439 - __main__ - INFO - Starting main application
+2025-01-28 21:25:05,440 - integration.telegram - INFO - Initializing the bot
+2025-01-28 21:25:05,491 - integration.telegram - INFO - Bot is running...
+2025-01-28 21:25:10,674 - integration.telegram - INFO - Downloaded audio file to voice.ogg
+2025-01-28 21:25:10,725 - integration.speech_to_text - INFO - Starting transcription for voice.ogg
+2025-01-28 21:25:12,973 - integration.speech_to_text - DEBUG - Transcription result:  ci faccio frate
+2025-01-28 21:25:12,974 - integration.llm - INFO - Fetching response for prompt:  ci faccio frate
+2025-01-28 21:25:16,232 - integration.llm - DEBUG - Received response: Ciao! Sembra che tu stia affrontando qualcosa di difficile. Vuoi condividere di più su cosa stai vivendo? Sono qui per aiutarti.
+2025-01-28 21:25:16,233 - integration.telegram - DEBUG - Transcription from it:  ci faccio frate, Response: Ciao! Sembra che tu stia affrontando qualcosa di difficile. Vuoi condividere di più su cosa stai vivendo? Sono qui per aiutarti.
+2025-01-28 21:25:16,358 - integration.telegram - ERROR - Error handling voice message: Can't parse entities: character '(' is reserved and must be escaped with the preceding '\'
+Traceback (most recent call last):
+  File "/app/integration/telegram.py", line 94, in handle_voice
+    await update.message.reply_text(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_message.py", line 1006, in reply_text
+    return await self.get_bot().send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/_extbot.py", line 2596, in send_message
+    return await super().send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 334, in decorator
+    result = await func(*args, **kwargs)  # skipcq: PYL-E1102
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 767, in send_message
+    return await self._send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/_extbot.py", line 488, in _send_message
+    result = await super()._send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 515, in _send_message
+    result = await self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 422, in _post
+    return await self._do_post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/_extbot.py", line 306, in _do_post
+    return await super()._do_post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 453, in _do_post
+    return await request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/request/_baserequest.py", line 165, in post
+    result = await self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/request/_baserequest.py", line 328, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '(' is reserved and must be escaped with the preceding '\'
+2025-01-28 21:25:54,135 - __main__ - INFO - Starting main application
+2025-01-28 21:25:54,136 - integration.telegram - INFO - Initializing the bot
+2025-01-28 21:25:54,184 - integration.telegram - INFO - Bot is running...
+2025-01-28 21:26:45,727 - integration.telegram - INFO - Downloaded audio file to voice.ogg
+2025-01-28 21:26:45,844 - integration.speech_to_text - INFO - Starting transcription for voice.ogg
+2025-01-28 21:26:48,278 - integration.speech_to_text - DEBUG - Transcription result:  ci faccio frate
+2025-01-28 21:26:48,279 - integration.llm - INFO - Fetching response for prompt:  ci faccio frate
+2025-01-28 21:26:49,440 - integration.llm - DEBUG - Received response: Ciao! Se vuoi condividere ciò che ti preoccupa o che ti fa sentire così, sono qui per ascoltarti e aiutarti. Cosa sta succedendo?
+2025-01-28 21:26:49,441 - integration.telegram - DEBUG - Transcription from it:  ci faccio frate, Response: Ciao! Se vuoi condividere ciò che ti preoccupa o che ti fa sentire così, sono qui per ascoltarti e aiutarti. Cosa sta succedendo?
+2025-01-28 21:26:49,484 - integration.telegram - ERROR - Error handling voice message: Can't parse entities: character '(' is reserved and must be escaped with the preceding '\'
+Traceback (most recent call last):
+  File "/app/integration/telegram.py", line 94, in handle_voice
+    await update.message.reply_text(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_message.py", line 1006, in reply_text
+    return await self.get_bot().send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/_extbot.py", line 2596, in send_message
+    return await super().send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 334, in decorator
+    result = await func(*args, **kwargs)  # skipcq: PYL-E1102
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 767, in send_message
+    return await self._send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/_extbot.py", line 488, in _send_message
+    result = await super()._send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 515, in _send_message
+    result = await self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 422, in _post
+    return await self._do_post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/_extbot.py", line 306, in _do_post
+    return await super()._do_post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/_bot.py", line 453, in _do_post
+    return await request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/request/_baserequest.py", line 165, in post
+    result = await self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/request/_baserequest.py", line 328, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '(' is reserved and must be escaped with the preceding '\'
+2025-01-28 21:27:48,379 - __main__ - INFO - Starting main application
+2025-01-28 21:27:48,380 - integration.telegram - INFO - Initializing the bot
+2025-01-28 21:27:48,424 - integration.telegram - INFO - Bot is running...
+2025-01-28 21:27:52,644 - integration.telegram - INFO - Downloaded audio file to voice.ogg
+2025-01-28 21:27:52,697 - integration.speech_to_text - INFO - Starting transcription for voice.ogg
+2025-01-28 21:27:54,929 - integration.speech_to_text - DEBUG - Transcription result:  ci faccio frate
+2025-01-28 21:27:54,930 - integration.llm - INFO - Fetching response for prompt:  ci faccio frate
+2025-01-28 21:27:55,868 - integration.llm - DEBUG - Received response: Ciao! Sembra che tu voglia condividere qualcosa o forse hai bisogno di aiuto. Come posso assisterti oggi?
+2025-01-28 21:27:55,868 - integration.telegram - DEBUG - Transcription from it:  ci faccio frate, Response: Ciao! Sembra che tu voglia condividere qualcosa o forse hai bisogno di aiuto. Come posso assisterti oggi?
+2025-01-28 21:28:34,688 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Write a list with vulletpoints
+2025-01-28 21:28:34,819 - integration.llm - INFO - Fetching response for prompt: Write a list with vulletpoints
+2025-01-28 21:28:36,966 - integration.llm - DEBUG - Received response: Of course! Here’s a list presented with bullet points:
+
+- Understand your thoughts and feelings
+- Set achievable goals
+- Practice mindfulness and meditation
+- Maintain a healthy lifestyle
+- Build strong relationships
+- Seek feedback and support
+- Engage in hobbies and interests
+- Keep a journal for reflection
+- Celebrate small successes
+- Stay open to new experiences
+
+If you need a specific topic or more details, just let me know!
+2025-01-28 21:28:36,967 - integration.telegram - DEBUG - Generated response: Of course! Here’s a list presented with bullet points:
+
+- Understand your thoughts and feelings
+- Set achievable goals
+- Practice mindfulness and meditation
+- Maintain a healthy lifestyle
+- Build strong relationships
+- Seek feedback and support
+- Engage in hobbies and interests
+- Keep a journal for reflection
+- Celebrate small successes
+- Stay open to new experiences
+
+If you need a specific topic or more details, just let me know!
+2025-01-28 21:28:48,776 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: And with title subtitle
+2025-01-28 21:28:49,002 - integration.llm - INFO - Fetching response for prompt: And with title subtitle
+2025-01-28 21:28:50,443 - integration.llm - DEBUG - Received response: Sigur! Te rog să îmi spui despre ce subiect ai nevoie de un titlu și un subtitlu, iar eu te voi ajuta cu plăcere.
+2025-01-28 21:28:50,444 - integration.telegram - DEBUG - Generated response: Sigur! Te rog să îmi spui despre ce subiect ai nevoie de un titlu și un subtitlu, iar eu te voi ajuta cu plăcere.
+2025-01-28 21:28:54,350 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Orice
+2025-01-28 21:28:54,399 - integration.llm - INFO - Fetching response for prompt: Orice
+2025-01-28 21:28:57,096 - integration.llm - DEBUG - Received response: Salut! Cu ce te pot ajuta astăzi? Dacă ai întrebări sau dorești să discutăm despre ceva anume, nu ezita să îmi spui.
+2025-01-28 21:28:57,096 - integration.telegram - DEBUG - Generated response: Salut! Cu ce te pot ajuta astăzi? Dacă ai întrebări sau dorești să discutăm despre ceva anume, nu ezita să îmi spui.
+2025-01-28 21:29:09,586 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Scrie o lista de title si subtitle despre viata
+2025-01-28 21:29:09,722 - integration.llm - INFO - Fetching response for prompt: Scrie o lista de title si subtitle despre viata
+2025-01-28 21:29:24,962 - integration.llm - DEBUG - Received response: Sigur! Iată o listă de titluri și subtitruri despre viață:
+
+1. **Titlu:** "Călătoria Existenței"
+   - **Subtitlu:** "Provocări și Împliniri pe Drumul Vieții"
+
+2. **Titlu:** "Învățăminte din Viață"
+   - **Subtitlu:** "Lectii Prețioase din Experiențele Zilnice"
+
+3. **Titlu:** "Viața ca o Artă"
+   - **Subtitlu:** "Cum Să Ne Creativizăm Fiecare Moment"
+
+4. **Titlu:** "Momente de Răscruce"
+   - **Subtitlu:** "Decizii Care Ne Transformă Destinul"
+
+5. **Titlu:** "Echilibrul Interior"
+   - **Subtitlu:** "Găsirea Armoniei în Haosul Vieții"
+
+6. **Titlu:** "Viața și Emoțiile"
+   - **Subtitlu:** "Înțelegerea Sentimentelor și Impactul Lor"
+
+7. **Titlu:** "Timpul și Viața"
+   - **Subtitlu:** "Cum Să Valorificăm Fiecare Clipă"
+
+8. **Titlu:** "Relațiile Umane"
+   - **Subtitlu:** "Fundația Fericirii în Viața Noastră"
+
+9. **Titlu:** "Despre Frici și Curaj"
+   - **Subtitlu:** "Cum Să Ne Învățăm Să Ne Întâmpinăm Temerile"
+
+10. **Titlu:** "Visuri și Ambiții"
+    - **Subtitlu:** "Stabilirea Obiectivelor pentru o Viață Împlinită"
+
+Dacă ai nevoie de alte sugestii sau de dezvoltarea unui titlu anume, nu ezita să îmi spui!
+2025-01-28 21:29:24,965 - integration.telegram - DEBUG - Generated response: Sigur! Iată o listă de titluri și subtitruri despre viață:
+
+1. **Titlu:** "Călătoria Existenței"
+   - **Subtitlu:** "Provocări și Împliniri pe Drumul Vieții"
+
+2. **Titlu:** "Învățăminte din Viață"
+   - **Subtitlu:** "Lectii Prețioase din Experiențele Zilnice"
+
+3. **Titlu:** "Viața ca o Artă"
+   - **Subtitlu:** "Cum Să Ne Creativizăm Fiecare Moment"
+
+4. **Titlu:** "Momente de Răscruce"
+   - **Subtitlu:** "Decizii Care Ne Transformă Destinul"
+
+5. **Titlu:** "Echilibrul Interior"
+   - **Subtitlu:** "Găsirea Armoniei în Haosul Vieții"
+
+6. **Titlu:** "Viața și Emoțiile"
+   - **Subtitlu:** "Înțelegerea Sentimentelor și Impactul Lor"
+
+7. **Titlu:** "Timpul și Viața"
+   - **Subtitlu:** "Cum Să Valorificăm Fiecare Clipă"
+
+8. **Titlu:** "Relațiile Umane"
+   - **Subtitlu:** "Fundația Fericirii în Viața Noastră"
+
+9. **Titlu:** "Despre Frici și Curaj"
+   - **Subtitlu:** "Cum Să Ne Învățăm Să Ne Întâmpinăm Temerile"
+
+10. **Titlu:** "Visuri și Ambiții"
+    - **Subtitlu:** "Stabilirea Obiectivelor pentru o Viață Împlinită"
+
+Dacă ai nevoie de alte sugestii sau de dezvoltarea unui titlu anume, nu ezita să îmi spui!
+2025-01-28 22:28:41,663 - __main__ - INFO - Starting main application
+2025-01-28 22:28:41,665 - integration.telegram - INFO - Initializing the bot
+2025-01-28 22:28:41,708 - integration.telegram - INFO - Bot is running...
+2025-01-28 22:28:58,696 - integration.telegram - INFO - Downloaded audio file to voice.ogg
+2025-01-28 22:28:58,751 - integration.speech_to_text - INFO - Starting transcription for voice.ogg
+2025-01-28 22:29:03,909 - integration.speech_to_text - DEBUG - Transcription result:  Ce zis frate mânțele?
+2025-01-28 22:29:03,910 - integration.llm - INFO - Fetching response for prompt:  Ce zis frate mânțele?
+2025-01-28 22:29:05,517 - integration.llm - DEBUG - Received response: Salut! Pare că folosești un limbaj colocvial. Dacă ai ceva anume în minte sau vrei să discutăm despre o problemă, sunt aici să te ajut! Ce te preocupă?
+2025-01-28 22:29:05,517 - integration.telegram - DEBUG - Transcription from ro:  Ce zis frate mânțele?, Response: Salut! Pare că folosești un limbaj colocvial. Dacă ai ceva anume în minte sau vrei să discutăm despre o problemă, sunt aici să te ajut! Ce te preocupă?

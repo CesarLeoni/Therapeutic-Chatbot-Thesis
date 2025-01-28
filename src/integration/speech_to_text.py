@@ -10,8 +10,9 @@ async def fetch_transcription(audio_file):
     try:
         logger.info(f"Starting transcription for {audio_file}")
         result = model.transcribe(audio_file)
+        language = result['language']
         logger.debug(f"Transcription result: {result['text']}")
-        return result["text"]
+        return result["text"],language
     except Exception as e:
         logger.error(f"Error transcribing audio: {e}", exc_info=True)
         return None

@@ -21,7 +21,7 @@ COPY src .
 
 # Preload the Whisper model by running the command
 # This ensures that Whisper is loaded and cached during the build
-#RUN python3 -c "import whisper; model = whisper.load_model('base')"
+RUN python3 -c "import whisper; model = whisper.load_model('turbo')"
 
 # Command to run the app with watchmedo for live code updates
 CMD ["watchmedo", "auto-restart", "--patterns=*.py", "--recursive", "--", "python", "main.py"]

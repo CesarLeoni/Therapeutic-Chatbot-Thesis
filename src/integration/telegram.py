@@ -57,9 +57,10 @@ import re
 
 def escape_markdown_v2(text):
     """
-    Escape special characters for MarkdownV2.
+    Escape special characters for MarkdownV2, including parentheses.
     """
-    return re.sub(r'([_*\[\]()~`>#+\-=|{}.!])', r'\\\1', text)
+    return re.sub(r'([_*[\]()~`>#\-=|{}.!])', r'\\\1', text)
+
 
 async def handle_voice(update: Update, context: ContextTypes.DEFAULT_TYPE):
     try:
@@ -72,18 +73,25 @@ async def handle_voice(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
         await context.bot.send_chat_action(chat_id=update.effective_chat.id, action=ChatAction.TYPING)
 
-        transcription = await fetch_transcription(audio_file)
+        transcription, language = await fetch_transcription(audio_file)
         response = await fetch_response(transcription or "Voice not understood.")
-        logger.debug(f"Transcription: {transcription}, Response: {response}")
+        logger.debug(f"Transcription from {language}: {transcription}, Response: {response}")
+
+        # Escape special characters except for formatting symbols (* and _)
+        #response_escaped = re.sub(r"([_~`>+\-=|{}.!()\[\]])", r"\\\1", response)
 
         # Escape transcription and response for MarkdownV2
-        transcription_escaped = escape_markdown_v2(str(transcription))
-        response_escaped = escape_markdown_v2(str(response))
+       # transcription_escaped = re.sub(r"([_~`>+\-=|{}.!()\[\]])", r"\\\1", transcription)
+        # response_escaped = escape_markdown_v2(str(response))
 
-        await update.message.reply_text(
-            f"You said: {transcription_escaped}\n{response_escaped}",
-            parse_mode="MarkdownV2"
-        )
+        # Escape transcription and response for MarkdownV2
+        #transcription_escaped = escape_markdown_v2(str(transcription))
+        #response_escaped = escape_markdown_v2(str(response))
+
+        #typing_duration = len(response) * 0.04  # 50ms per character
+        #asyncio.create_task(asyncio.sleep(typing_duration))
+
+        await update.message.reply_text(f"You said (in {language}): {transcription}\n{response}")
 
         # Save the log data to the database, including voice transcription
         save_message_log(update.effective_user.id, update.effective_user.first_name,
