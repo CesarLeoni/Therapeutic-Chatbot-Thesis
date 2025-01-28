@@ -1898,3 +1898,18 @@ Dacă te referi la un alt context specific, te rog să-mi spui!
 3. **Nume propriu**: Poate fi folosit ca nume de fată în multe culturi.
 
 Dacă te referi la un alt context specific, te rog să-mi spui!
+2025-01-28 10:48:55,741 - __main__ - INFO - Starting main application
+2025-01-28 10:48:55,742 - integration.telegram - INFO - Initializing the bot
+2025-01-28 10:48:55,803 - integration.telegram - INFO - Bot is running...
+2025-01-28 15:02:39,385 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: Salut frate
+2025-01-28 15:02:39,731 - integration.llm - INFO - Fetching response for prompt: Salut frate
+2025-01-28 15:02:42,740 - integration.llm - DEBUG - Received response: Salut! Cu ce te pot ajuta astăzi?
+2025-01-28 15:02:42,741 - integration.telegram - DEBUG - Generated response: Salut! Cu ce te pot ajuta astăzi?
+2025-01-28 15:04:44,964 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: ce faci?
+2025-01-28 15:04:45,861 - integration.llm - INFO - Fetching response for prompt: ce faci?
+2025-01-28 15:04:50,100 - integration.llm - DEBUG - Received response: Bună! Sunt aici să te ajut. Cum te pot sprijini astăzi?
+2025-01-28 15:04:50,101 - integration.telegram - DEBUG - Generated response: Bună! Sunt aici să te ajut. Cum te pot sprijini astăzi?
+2025-01-28 15:26:14,872 - integration.telegram - INFO - User Cesar with id 1480143182 sent the message: ca pe atlas care tine pamantul
+2025-01-28 15:26:15,140 - integration.llm - INFO - Fetching response for prompt: ca pe atlas care tine pamantul
+2025-01-28 15:26:18,469 - integration.llm - DEBUG - Received response: Se pare că faci referire la mitul lui Atlas, un titan din mitologia greacă care susținea cerul pe umerii săi. Această imagine este adesea folosită pentru a simboliza responsabilitatea și povara pe care o poartă o persoană. Dacă simți că ai o povară similară sau că îți este greu să faci față responsabilităților vieții, sunt aici să te ascult și să te ajut. Ce te preocupă în mod special?
+2025-01-28 15:26:18,469 - integration.telegram - DEBUG - Generated response: Se pare că faci referire la mitul lui Atlas, un titan din mitologia greacă care susținea cerul pe umerii săi. Această imagine este adesea folosită pentru a simboliza responsabilitatea și povara pe care o poartă o persoană. Dacă simți că ai o povară similară sau că îți este greu să faci față responsabilităților vieții, sunt aici să te ascult și să te ajut. Ce te preocupă în mod special?
