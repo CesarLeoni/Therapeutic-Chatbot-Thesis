@@ -1,5 +1,8 @@
 #Ignore Telegram bot and openAI keys
-.env
+src/.env
 
 #ignore voice files
 voice.ogg
+
+#vitrual env
+chatbotenv/
